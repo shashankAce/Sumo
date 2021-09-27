@@ -1,0 +1,146 @@
+[
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 1.416667]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 1.416667]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Death: 1.4166666666666667s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 3.333333]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 3.333333]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Idle: 3.3333333333333335s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 3.333333]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 3.333333]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Idle_swordLeft: 3.3333333333333335s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 3.333333]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 3.333333]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Idle_swordRight: 3.3333333333333335s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 1.208333]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 1.208333]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Jump: 1.2083333333333333s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Roll: 1.25s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Roll_sword: 1.25s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 0.833333]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 0.833333]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Run: 0.8333333333333334s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 0.833333]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 0.833333]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Run_swordAttack: 0.8333333333333334s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 0.833333]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 0.833333]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Run_swordRight: 0.8333333333333334s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 1.166667]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 1.166667]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|swordAttackJump: 1.1666666666666667s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Take HumanArmature|Walking: 1.25s"
+  }
+]
