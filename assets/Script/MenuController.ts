@@ -7,7 +7,7 @@ const { ccclass, property } = _decorator;
 export class MenuController extends Component {
 
     startLoc: Vec2;
-    endLoc: Vec2;
+    startZ: number;
 
     @property({
         type: Node
@@ -28,15 +28,15 @@ export class MenuController extends Component {
 
     touchStart(touch: Touch) {
         this.startLoc = touch.getLocation();
+        this.startZ = this.sumo.rotation.getEulerAngles(new Vec3()).z;
     }
 
     touchMove(touch: Touch) {
         let loc = touch.getLocationX();
         let dist = this.startLoc.x - loc;
-        let angle = clamp(dist, -360, 360);
-        log(angle);
-        this.sumo.rotation = Quat.fromEuler(new Quat(), -90, 0, this.sumo.rotation.z + angle);
-        // this.sumo.rotation = Quat.rotateZ(new Quat(), this.node.rotation, this.currAngle * Math.PI / 180)
+        // let angle = clamp(dist, -360, 360);
+        // let endQuat = Quat.fromEuler(new Quat(), -90, 0, angle);
+        this.sumo.setRotationFromEuler(-90, 0, this.startZ + dist);
     }
 
     startGame(): void {

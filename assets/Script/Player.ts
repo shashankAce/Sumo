@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Vec3, systemEvent, SystemEvent, EventMouse, Animation, clamp, Quat, Camera } from 'cc';
+import { _decorator, Component, Vec3, Node, macro } from 'cc';
 const { ccclass, property } = _decorator;
 
 /**
@@ -13,78 +13,49 @@ const { ccclass, property } = _decorator;
  * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
  *
  */
+const CELL_TIME = 0.016;
+const SPEED = 2;
 
 @ccclass('Player')
 export class Player extends Component {
 
-    private _startJump: boolean = false;
-    private _jumpStep: number = 0;
-    private _curJumpTime: number = 0;
-    private _jumpTime: number = 0.1;
-    private _curJumpSpeed: number = 0;
-    private _curPos: Vec3 = new Vec3();
-    private _deltaPos: Vec3 = new Vec3(0, 0, 0);
-    private _targetPos: Vec3 = new Vec3();
-    private _isMoving = false;
 
-    private angleX = 0;
-    private angleY = 0;
+    @property({ type: Node })
+    playerCamera: Node = null;
+    private _vector: Vec3 = Vec3.ZERO;
+    private _vectorAngle: Vec3 = Vec3.ZERO;
+    private _now_time = 0;
 
-
-    @property({ type: Camera })
-    playerCamera: Camera = null;
-
-
-    start() {
-        systemEvent.on(SystemEvent.EventType.MOUSE_UP, this.onMouseUp, this);
-        systemEvent.on(SystemEvent.EventType.MOUSE_MOVE, this.onMouseMove, this);
-    }
-
-    onMouseUp(event: EventMouse) {
-        if (event.getButton() === 0) {
-            this.jumpByStep(1);
-        } else if (event.getButton() === 2) {
-            this.jumpByStep(2);
+    touchCallBack(vector: Vec3, angle: number) {
+        Vec3.rotateZ(vector, vector, Vec3.ZERO, this.playerCamera.eulerAngles.y * macro.RAD);
+        this._vector = vector.normalize();
+        if (angle) {
+            this.node.eulerAngles = new Vec3(0, angle + 90 + this.playerCamera.eulerAngles.y, 0);
         }
     }
 
-    onMouseMove(event: EventMouse) {
-
-        this.angleX += -event.movementX;
-        this.angleY += -event.movementY;
-        // this.angleY = clamp(this.angleY, this.xAxisMin, this.xAxisMax);
-
-        // this.playerCamera.rotation = Quat.fromEuler(new Quat(), this.angleY, this.angleX, 0);
-        return;
-
+    touchAngleCallBack(vector: Vec3, angle: number) {
+        this._vectorAngle = vector.normalize();
     }
 
-    jumpByStep(step: number) {
-        if (this._isMoving) {
-            return;
+    fix_update(dt: number) {
+        if (this._vector.lengthSqr() > 0) {
+            this.node.setPosition(this.node.position.add3f(this._vector.x * SPEED * dt, 0, -this._vector.y * SPEED * dt));
+            // this._skeletal.resume();
+        } else {
+            // this._skeletal.pause();
         }
-        this._startJump = true;
-        this._jumpStep = step;
-        this._curJumpTime = 0;
-        this._curJumpSpeed = this._jumpStep / this._jumpTime;
-        this.node.getPosition(this._curPos);
-        Vec3.add(this._targetPos, this._curPos, new Vec3(this._jumpStep, 0, 0));
 
-        this._isMoving = true;
+        if (this._vectorAngle.lengthSqr() > 0) {
+            this.playerCamera.eulerAngles = this.playerCamera.eulerAngles.add3f(0, -this._vectorAngle.x, 0);
+        }
     }
 
     update(deltaTime: number) {
-        
+        this._now_time += deltaTime;
+        while (this._now_time >= CELL_TIME) {
+            this.fix_update(CELL_TIME);
+            this._now_time -= CELL_TIME;
+        }
     }
 }
-
-/**
- * [1] Class member could be defined like this.
- * [2] Use `property` decorator if your want the member to be serializable.
- * [3] Your initialization goes here.
- * [4] Your update function goes here.
- *
- * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/en/scripting/
- * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/en/scripting/ccclass.html
- * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/en/scripting/life-cycle-callbacks.html
- */

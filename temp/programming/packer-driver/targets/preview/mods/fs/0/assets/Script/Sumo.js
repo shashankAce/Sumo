@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, _dec, _class, _crd, ccclass, property, Sumo;
+  var _cclegacy, _decorator, Component, log, _dec, _class, _crd, ccclass, property, Sumo;
 
   function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; _setPrototypeOf(subClass, superClass); }
 
@@ -12,6 +12,7 @@ System.register(["cc"], function (_export, _context) {
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      log = _cc.log;
     }],
     execute: function () {
       _crd = true;
@@ -46,6 +47,14 @@ System.register(["cc"], function (_export, _context) {
         // [2]
         // @property
         // serializableDummy = 0;
+        _proto.start = function start() {// systemEvent.on(SystemEvent.EventType.TOUCH_START, this.touchStart, this);
+          // systemEvent.on(SystemEvent.EventType.TOUCH_MOVE, this.touchMove, this);
+        };
+
+        _proto.touchStart = function touchStart(touch) {
+          log;
+        };
+
         _proto.getSumoNode = function getSumoNode() {
           return this.node;
         } // update (deltaTime: number) {

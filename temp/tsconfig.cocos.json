@@ -6,15 +6,15 @@
     "strict": true,
     "types": [
       "./temp/declarations/cc.env",
-      "./temp/declarations/cc",
-      "./temp/declarations/jsb"
+      "./temp/declarations/jsb",
+      "./temp/declarations/cc"
     ],
     "paths": {
       "db://internal/*": [
-        "C:\\CocosDashboard_1.0.14\\resources\\.editors\\Creator\\3.3.1\\resources\\resources\\3d\\engine\\editor\\assets\\*"
+        "/Applications/CocosCreator/Creator/3.3.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "C:\\Users\\shash\\NewProject\\assets\\*"
+        "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/*"
       ]
     },
     "experimentalDecorators": true,

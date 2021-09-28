@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, systemEvent, SystemEvent, log } from 'cc';
 const { ccclass, property } = _decorator;
 
 /**
@@ -22,6 +22,16 @@ export class Sumo extends Component {
     // [2]
     // @property
     // serializableDummy = 0;
+
+    start(){
+
+        // systemEvent.on(SystemEvent.EventType.TOUCH_START, this.touchStart, this);
+        // systemEvent.on(SystemEvent.EventType.TOUCH_MOVE, this.touchMove, this);
+    }
+
+    touchStart(touch: Touch){
+        log
+    }
 
     getSumoNode() {
         return this.node;

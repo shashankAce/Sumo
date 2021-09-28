@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, systemEvent, SystemEvent, director, macro, Node, Quat, clamp, log, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, MenuController;
+  var _cclegacy, _decorator, Component, systemEvent, SystemEvent, director, macro, Node, Vec3, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, MenuController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -27,9 +27,7 @@ System.register(["cc"], function (_export, _context) {
       director = _cc.director;
       macro = _cc.macro;
       Node = _cc.Node;
-      Quat = _cc.Quat;
-      clamp = _cc.clamp;
-      log = _cc.log;
+      Vec3 = _cc.Vec3;
     }],
     execute: function () {
       _crd = true;
@@ -55,7 +53,7 @@ System.register(["cc"], function (_export, _context) {
 
           _defineProperty(_assertThisInitialized(_this), "startLoc", void 0);
 
-          _defineProperty(_assertThisInitialized(_this), "endLoc", void 0);
+          _defineProperty(_assertThisInitialized(_this), "startZ", void 0);
 
           _initializerDefineProperty(_assertThisInitialized(_this), "sumo", _descriptor, _assertThisInitialized(_this));
 
@@ -77,14 +75,15 @@ System.register(["cc"], function (_export, _context) {
 
         _proto.touchStart = function touchStart(touch) {
           this.startLoc = touch.getLocation();
+          this.startZ = this.sumo.rotation.getEulerAngles(new Vec3()).z;
         };
 
         _proto.touchMove = function touchMove(touch) {
           var loc = touch.getLocationX();
-          var dist = this.startLoc.x - loc;
-          var angle = clamp(dist, -360, 360);
-          log(angle);
-          this.sumo.rotation = Quat.fromEuler(new Quat(), -90, 0, this.sumo.rotation.z + angle); // this.sumo.rotation = Quat.rotateZ(new Quat(), this.node.rotation, this.currAngle * Math.PI / 180)
+          var dist = this.startLoc.x - loc; // let angle = clamp(dist, -360, 360);
+          // let endQuat = Quat.fromEuler(new Quat(), -90, 0, angle);
+
+          this.sumo.setRotationFromEuler(-90, 0, this.startZ + dist);
         };
 
         _proto.startGame = function startGame() {

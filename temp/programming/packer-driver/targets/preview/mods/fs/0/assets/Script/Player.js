@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Vec3, systemEvent, SystemEvent, Camera, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, Player;
+  var _cclegacy, _decorator, Component, Vec3, Node, macro, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, CELL_TIME, SPEED, Player;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -23,9 +23,8 @@ System.register(["cc"], function (_export, _context) {
       _decorator = _cc._decorator;
       Component = _cc.Component;
       Vec3 = _cc.Vec3;
-      systemEvent = _cc.systemEvent;
-      SystemEvent = _cc.SystemEvent;
-      Camera = _cc.Camera;
+      Node = _cc.Node;
+      macro = _cc.macro;
     }],
     execute: function () {
       _crd = true;
@@ -46,8 +45,11 @@ System.register(["cc"], function (_export, _context) {
        *
        */
 
+      CELL_TIME = 0.016;
+      SPEED = 2;
+
       _export("Player", Player = (_dec = ccclass('Player'), _dec2 = property({
-        type: Camera
+        type: Node
       }), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
         _inheritsLoose(Player, _Component);
 
@@ -60,71 +62,51 @@ System.register(["cc"], function (_export, _context) {
 
           _this = _Component.call.apply(_Component, [this].concat(args)) || this;
 
-          _defineProperty(_assertThisInitialized(_this), "_startJump", false);
-
-          _defineProperty(_assertThisInitialized(_this), "_jumpStep", 0);
-
-          _defineProperty(_assertThisInitialized(_this), "_curJumpTime", 0);
-
-          _defineProperty(_assertThisInitialized(_this), "_jumpTime", 0.1);
-
-          _defineProperty(_assertThisInitialized(_this), "_curJumpSpeed", 0);
-
-          _defineProperty(_assertThisInitialized(_this), "_curPos", new Vec3());
-
-          _defineProperty(_assertThisInitialized(_this), "_deltaPos", new Vec3(0, 0, 0));
-
-          _defineProperty(_assertThisInitialized(_this), "_targetPos", new Vec3());
-
-          _defineProperty(_assertThisInitialized(_this), "_isMoving", false);
-
-          _defineProperty(_assertThisInitialized(_this), "angleX", 0);
-
-          _defineProperty(_assertThisInitialized(_this), "angleY", 0);
-
           _initializerDefineProperty(_assertThisInitialized(_this), "playerCamera", _descriptor, _assertThisInitialized(_this));
+
+          _defineProperty(_assertThisInitialized(_this), "_vector", Vec3.ZERO);
+
+          _defineProperty(_assertThisInitialized(_this), "_vectorAngle", Vec3.ZERO);
+
+          _defineProperty(_assertThisInitialized(_this), "_now_time", 0);
 
           return _this;
         }
 
         var _proto = Player.prototype;
 
-        _proto.start = function start() {
-          systemEvent.on(SystemEvent.EventType.MOUSE_UP, this.onMouseUp, this);
-          systemEvent.on(SystemEvent.EventType.MOUSE_MOVE, this.onMouseMove, this);
-        };
+        _proto.touchCallBack = function touchCallBack(vector, angle) {
+          Vec3.rotateZ(vector, vector, Vec3.ZERO, this.playerCamera.eulerAngles.y * macro.RAD);
+          this._vector = vector.normalize();
 
-        _proto.onMouseUp = function onMouseUp(event) {
-          if (event.getButton() === 0) {
-            this.jumpByStep(1);
-          } else if (event.getButton() === 2) {
-            this.jumpByStep(2);
+          if (angle) {
+            this.node.eulerAngles = new Vec3(0, angle + 90 + this.playerCamera.eulerAngles.y, 0);
           }
         };
 
-        _proto.onMouseMove = function onMouseMove(event) {
-          this.angleX += -event.movementX;
-          this.angleY += -event.movementY; // this.angleY = clamp(this.angleY, this.xAxisMin, this.xAxisMax);
-          // this.playerCamera.rotation = Quat.fromEuler(new Quat(), this.angleY, this.angleX, 0);
-
-          return;
+        _proto.touchAngleCallBack = function touchAngleCallBack(vector, angle) {
+          this._vectorAngle = vector.normalize();
         };
 
-        _proto.jumpByStep = function jumpByStep(step) {
-          if (this._isMoving) {
-            return;
+        _proto.fix_update = function fix_update(dt) {
+          if (this._vector.lengthSqr() > 0) {
+            this.node.setPosition(this.node.position.add3f(this._vector.x * SPEED * dt, 0, -this._vector.y * SPEED * dt)); // this._skeletal.resume();
+          } else {// this._skeletal.pause();
+            }
+
+          if (this._vectorAngle.lengthSqr() > 0) {
+            this.playerCamera.eulerAngles = this.playerCamera.eulerAngles.add3f(0, -this._vectorAngle.x, 0);
           }
-
-          this._startJump = true;
-          this._jumpStep = step;
-          this._curJumpTime = 0;
-          this._curJumpSpeed = this._jumpStep / this._jumpTime;
-          this.node.getPosition(this._curPos);
-          Vec3.add(this._targetPos, this._curPos, new Vec3(this._jumpStep, 0, 0));
-          this._isMoving = true;
         };
 
-        _proto.update = function update(deltaTime) {};
+        _proto.update = function update(deltaTime) {
+          this._now_time += deltaTime;
+
+          while (this._now_time >= CELL_TIME) {
+            this.fix_update(CELL_TIME);
+            this._now_time -= CELL_TIME;
+          }
+        };
 
         return Player;
       }(Component), _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "playerCamera", [_dec2], {
@@ -135,17 +117,6 @@ System.register(["cc"], function (_export, _context) {
           return null;
         }
       })), _class2)) || _class));
-      /**
-       * [1] Class member could be defined like this.
-       * [2] Use `property` decorator if your want the member to be serializable.
-       * [3] Your initialization goes here.
-       * [4] Your update function goes here.
-       *
-       * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/en/scripting/
-       * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/en/scripting/ccclass.html
-       * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/en/scripting/life-cycle-callbacks.html
-       */
-
 
       _cclegacy._RF.pop();
 

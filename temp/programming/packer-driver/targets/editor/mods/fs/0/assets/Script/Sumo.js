@@ -1,13 +1,14 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, _dec, _class, _crd, ccclass, property, Sumo;
+  var _cclegacy, _decorator, Component, log, _dec, _class, _crd, ccclass, property, Sumo;
 
   return {
     setters: [function (_cc) {
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      log = _cc.log;
     }],
     execute: function () {
       _crd = true;
@@ -36,6 +37,14 @@ System.register(["cc"], function (_export, _context) {
         // [2]
         // @property
         // serializableDummy = 0;
+        start() {// systemEvent.on(SystemEvent.EventType.TOUCH_START, this.touchStart, this);
+          // systemEvent.on(SystemEvent.EventType.TOUCH_MOVE, this.touchMove, this);
+        }
+
+        touchStart(touch) {
+          log;
+        }
+
         getSumoNode() {
           return this.node;
         } // update (deltaTime: number) {

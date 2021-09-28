@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 6916.777199983597,
+    "mTimestamp": 7081.413511276245,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -389,11 +389,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 195156.86040002108,
+    "mTimestamp": 26929458.743962288,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///C:/Users/shash/NewProject/assets/Script/Bot.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Bot.ts",
         "rewritten": "__unresolved_0",
         "loc": {
           "start": {
@@ -402,63 +402,77 @@
           },
           "end": {
             "line": 5,
-            "column": 91
+            "column": 109
           }
         }
       },
       {
-        "value": "file:///C:/Users/shash/NewProject/assets/Script/Menu.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/GameUIController.ts",
         "rewritten": "__unresolved_1",
         "loc": {
           "start": {
             "line": 5,
-            "column": 107
+            "column": 125
           },
           "end": {
             "line": 5,
-            "column": 164
+            "column": 212
           }
         }
       },
       {
-        "value": "file:///C:/Users/shash/NewProject/assets/Script/MenuController.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Menu.ts",
         "rewritten": "__unresolved_2",
         "loc": {
           "start": {
             "line": 5,
-            "column": 180
+            "column": 228
           },
           "end": {
             "line": 5,
-            "column": 247
+            "column": 303
           }
         }
       },
       {
-        "value": "file:///C:/Users/shash/NewProject/assets/Script/Player.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/MenuController.ts",
         "rewritten": "__unresolved_3",
         "loc": {
           "start": {
             "line": 5,
-            "column": 263
+            "column": 319
           },
           "end": {
             "line": 5,
-            "column": 322
+            "column": 404
           }
         }
       },
       {
-        "value": "file:///C:/Users/shash/NewProject/assets/Script/Sumo.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Player.ts",
         "rewritten": "__unresolved_4",
         "loc": {
           "start": {
             "line": 5,
-            "column": 338
+            "column": 420
           },
           "end": {
             "line": 5,
-            "column": 395
+            "column": 497
+          }
+        }
+      },
+      {
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Sumo.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 513
+          },
+          "end": {
+            "line": 5,
+            "column": 588
           }
         }
       }
@@ -469,23 +483,27 @@
     "resolvedImports": [
       {
         "isExternal": false,
-        "url": "file:///C:/Users/shash/NewProject/assets/Script/Bot.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Bot.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///C:/Users/shash/NewProject/assets/Script/Menu.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/GameUIController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///C:/Users/shash/NewProject/assets/Script/MenuController.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Menu.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///C:/Users/shash/NewProject/assets/Script/Player.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/MenuController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///C:/Users/shash/NewProject/assets/Script/Sumo.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Player.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Sumo.ts"
       }
     ]
   },
@@ -707,5 +725,215 @@
       "type": "esm"
     },
     "resolvedImports": []
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/MenuController.ts": {
+    "mTimestamp": 1632835054963.1292,
+    "chunkId": "assets/Script/MenuController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 144
+          },
+          "end": {
+            "line": 2,
+            "column": 148
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Player.ts": {
+    "mTimestamp": 1632845831725.613,
+    "chunkId": "assets/Script/Player.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Menu.ts": {
+    "mTimestamp": 1632724569528.3171,
+    "chunkId": "assets/Script/Menu.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 49
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Bot.ts": {
+    "mTimestamp": 1632724569528.0146,
+    "chunkId": "assets/Script/Bot.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Sumo.ts": {
+    "mTimestamp": 1632748555761.2754,
+    "chunkId": "assets/Script/Sumo.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 75
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/GameUIController.ts": {
+    "mTimestamp": 1632846308163.1895,
+    "chunkId": "assets/Script/GameUIController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 102
+          },
+          "end": {
+            "line": 2,
+            "column": 106
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
   }
 }

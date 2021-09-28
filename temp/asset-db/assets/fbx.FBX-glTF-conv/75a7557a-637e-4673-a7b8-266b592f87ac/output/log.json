@@ -1,0 +1,62 @@
+[
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Take Armature|attack: 1.25s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 0.791667]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 0.791667]"
+  },
+  {
+    "level": 0,
+    "message": "Take Armature|damage: 0.7916666666666666s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 0.625000]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 0.625000]"
+  },
+  {
+    "level": 0,
+    "message": "Take Armature|die: 0.625s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Take Armature|idle: 1.25s"
+  },
+  {
+    "level": 0,
+    "message": "Local time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Reference time: [0.000000, 1.250000]"
+  },
+  {
+    "level": 0,
+    "message": "Take Armature|walk: 1.25s"
+  }
+]
