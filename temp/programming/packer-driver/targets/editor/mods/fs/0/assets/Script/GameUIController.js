@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Node, macro, UITransform, Vec3, EventHandler, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, GameUIController;
+  var _cclegacy, _decorator, Component, Node, macro, Vec3, EventHandler, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, GameUIController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -18,7 +18,6 @@ System.register(["cc"], function (_export, _context) {
       Component = _cc.Component;
       Node = _cc.Node;
       macro = _cc.macro;
-      UITransform = _cc.UITransform;
       Vec3 = _cc.Vec3;
       EventHandler = _cc.EventHandler;
     }],
@@ -62,10 +61,15 @@ System.register(["cc"], function (_export, _context) {
         }
 
         touchMove(touch) {
-          let loc = touch.getUILocation();
-          let pos = this.node.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(loc.x, loc.y));
-          let angle = Math.atan2(pos.y, pos.x);
-          this.touchEventCallBack.forEach(c => c.emit([pos, angle * macro.DEG]));
+          /*  let loc = touch.getUILocation();
+           let pos = this.node.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(loc.x, loc.y));
+           let angle = Math.atan2(pos.y, pos.x);
+           this.touchEventCallBack.forEach(c => c.emit([pos, angle * macro.DEG])); */
+          let loc = touch.getLocation();
+          let pos = new Vec3(loc.x - this.startLoc.x, loc.y - this.startLoc.y);
+          let angle = this.get_angle(this.startLoc.x, this.startLoc.y, loc.x, loc.y);
+          console.log(angle);
+          this.touchEventCallBack.forEach(c => c.emit([pos, angle]));
         }
 
         touchEnded(touch) {
@@ -73,7 +77,16 @@ System.register(["cc"], function (_export, _context) {
         }
 
         touchStart(touch) {
+          this.startLoc = touch.getLocation();
           this.touchMove(touch);
+        }
+
+        get_angle(cx, cy, ex, ey) {
+          let dy = ey - cy;
+          let dx = ex - cx;
+          let theta = Math.atan2(dy, dx); // theta *= 180 / Math.PI;
+
+          return theta * macro.DEG;
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "touchEventCallBack", [_dec2], {

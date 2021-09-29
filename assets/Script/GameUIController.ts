@@ -32,11 +32,19 @@ export class GameUIController extends Component {
     }
 
     touchMove(touch: EventTouch) {
+        /*  
+        ***** Do not delete this commented code
+
         let loc = touch.getUILocation();
         let pos = this.node.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(loc.x, loc.y));
-
         let angle = Math.atan2(pos.y, pos.x);
-        this.touchEventCallBack.forEach(c => c.emit([pos, angle * macro.DEG]));
+        this.touchEventCallBack.forEach(c => c.emit([pos, angle * macro.DEG])); 
+        */
+
+        let loc = touch.getLocation();
+        let pos = new Vec3(loc.x - this.startLoc.x, loc.y - this.startLoc.y);
+        let angle = this.get_angle(this.startLoc.x, this.startLoc.y, loc.x, loc.y);
+        this.touchEventCallBack.forEach(c => c.emit([pos, angle]));
     }
 
     touchEnded(touch: EventTouch) {
@@ -44,7 +52,16 @@ export class GameUIController extends Component {
     }
 
     touchStart(touch: EventTouch) {
+        this.startLoc = touch.getLocation();
         this.touchMove(touch);
+    }
+
+    get_angle(cx: number, cy: number, ex: number, ey: number) {
+        let dy = ey - cy;
+        let dx = ex - cx;
+        let theta = Math.atan2(dy, dx);
+        // theta *= 180 / Math.PI;
+        return theta * macro.DEG;
     }
 
 }

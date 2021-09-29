@@ -1,9 +1,9 @@
 {
   "version": "2.1.4",
-  "sourceTimeStamp": 1632724569535.515,
+  "sourceTimeStamp": 1531143440000,
   "outputTimeStamps": {
-    "log.json": 1632724790622.512,
-    "out.bin": 1632724790566.6118,
-    "out.gltf": 1632724790619.0085
+    "log.json": 1632898085212.6777,
+    "out.gltf": 1632898085207.667,
+    "out.bin": 1632898085119.5774
   }
 }

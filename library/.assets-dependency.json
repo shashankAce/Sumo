@@ -29,6 +29,21 @@
     ],
     "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Free Wooden Crates/Crate-05.FBX@6e70c": [
       "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Free Wooden Crates/diffuse.tga"
+    ],
+    "D:\\Office\\Sumo\\assets\\Free Wooden Crates\\Crate-01.FBX@6e70c": [
+      "D:\\Office\\Sumo\\assets\\Free Wooden Crates\\diffuse.tga"
+    ],
+    "D:\\Office\\Sumo\\assets\\Free Wooden Crates\\Crate-05.FBX@6e70c": [
+      "D:\\Office\\Sumo\\assets\\Free Wooden Crates\\diffuse.tga"
+    ],
+    "D:\\Office\\Sumo\\assets\\Free Wooden Crates\\Crate-04.FBX@6e70c": [
+      "D:\\Office\\Sumo\\assets\\Free Wooden Crates\\diffuse.tga"
+    ],
+    "D:\\Office\\Sumo\\assets\\Free Wooden Crates\\Crate-02.FBX@6e70c": [
+      "D:\\Office\\Sumo\\assets\\Free Wooden Crates\\diffuse.tga"
+    ],
+    "D:\\Office\\Sumo\\assets\\Free Wooden Crates\\Crate-03.FBX@6e70c": [
+      "D:\\Office\\Sumo\\assets\\Free Wooden Crates\\diffuse.tga"
     ]
   },
   "uuid": {
@@ -53,6 +68,12 @@
       "1baf0fc9-befa-459c-8bdd-af1a450a0319"
     ],
     "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Material/platform.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "D:\\Office\\Sumo\\assets\\Material\\grass.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "D:\\Office\\Sumo\\assets\\Material\\platform.mtl": [
       "1baf0fc9-befa-459c-8bdd-af1a450a0319"
     ]
   }

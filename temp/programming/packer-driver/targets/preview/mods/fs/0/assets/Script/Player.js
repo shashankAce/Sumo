@@ -46,7 +46,7 @@ System.register(["cc"], function (_export, _context) {
        */
 
       CELL_TIME = 0.016;
-      SPEED = 2;
+      SPEED = 4;
 
       _export("Player", Player = (_dec = ccclass('Player'), _dec2 = property({
         type: Node
@@ -90,9 +90,9 @@ System.register(["cc"], function (_export, _context) {
 
         _proto.fix_update = function fix_update(dt) {
           if (this._vector.lengthSqr() > 0) {
-            this.node.setPosition(this.node.position.add3f(this._vector.x * SPEED * dt, 0, -this._vector.y * SPEED * dt)); // this._skeletal.resume();
-          } else {// this._skeletal.pause();
-            }
+            this.node.setPosition(this.node.position.add3f(this._vector.x * SPEED * dt, 0, -this._vector.y * SPEED * dt));
+            this.playerCamera.setPosition(this.playerCamera.position.add3f(this._vector.x * SPEED * dt, 0, 0));
+          }
 
           if (this._vectorAngle.lengthSqr() > 0) {
             this.playerCamera.eulerAngles = this.playerCamera.eulerAngles.add3f(0, -this._vectorAngle.x, 0);
