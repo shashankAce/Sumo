@@ -15,6 +15,9 @@
       ],
       "db://assets/*": [
         "D:\\Office\\Sumo\\assets\\*"
+      ],
+      "db://colyseus-sdk/*": [
+        "D:\\Office\\Sumo\\extensions\\colyseus-sdk\\runtime\\*"
       ]
     },
     "experimentalDecorators": true,

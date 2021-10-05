@@ -33,7 +33,7 @@
         "__id__": 51
       },
       {
-        "__id__": 59
+        "__id__": 60
       }
     ],
     "_active": true,
@@ -41,7 +41,7 @@
     "_prefab": null,
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 63
+      "__id__": 64
     },
     "_id": "a81941e8-7263-46ef-83db-06d31c197e79"
   },
@@ -904,6 +904,9 @@
       },
       {
         "__id__": 57
+      },
+      {
+        "__id__": 59
       }
     ],
     "_prefab": null,
@@ -1111,6 +1114,20 @@
     "customEventData": ""
   },
   {
+    "__type__": "aa55cgJ/ItInrViJDo5FmqX",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 51
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "hostname": "localhost",
+    "port": 2567,
+    "useSSL": false,
+    "_id": "71pFRBvoBHzr5mkn8YvKMr"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Plane",
     "_objFlags": 0,
@@ -1121,10 +1138,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 60
+        "__id__": 61
       },
       {
-        "__id__": 62
+        "__id__": 63
       }
     ],
     "_prefab": null,
@@ -1161,7 +1178,7 @@
     "_name": "Plane<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 59
+      "__id__": 60
     },
     "_enabled": true,
     "__prefab": null,
@@ -1173,7 +1190,7 @@
     ],
     "_visFlags": 0,
     "lightmapSettings": {
-      "__id__": 61
+      "__id__": 62
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
@@ -1205,7 +1222,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 59
+      "__id__": 60
     },
     "_enabled": true,
     "__prefab": null,
@@ -1229,16 +1246,16 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 64
-    },
-    "shadows": {
       "__id__": 65
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 66
     },
-    "fog": {
+    "_skybox": {
       "__id__": 67
+    },
+    "fog": {
+      "__id__": 68
     }
   },
   {

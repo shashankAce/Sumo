@@ -500,3 +500,20 @@ EventHandlerNonNull*@http://localhost:7456/:146:5
 
 2021-10-05 14:41:21-error: [Scene] Failed to resolve __unresolved_2 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
 2021-10-05 14:41:35-error: [Scene] Failed to resolve __unresolved_2 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 15:43:32-log: [Window] [extension] Archive:  D:/Office/Sumo/extensions/Colyseus SDK.zip
+   creating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/
+  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/.DS_Store  
+  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/__MACOSX/colyseus-sdk/._.DS_Store  
+   creating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/runtime/
+  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/package.json  
+  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/browser.js  
+  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/runtime/colyseus.d.ts.meta  
+  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/runtime/colyseus.js  
+  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/runtime/colyseus.d.ts  
+  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/runtime/colyseus.js.meta  
+
+2021-10-05 15:43:32-error: [Extension] Register error: D:\Office\Sumo\extensions\Colyseus SDK
+2021-10-05 15:43:32-error: D:\Office\Sumo\extensions\Colyseus SDK\package.json: ENOENT: no such file or directory, open 'D:\Office\Sumo\extensions\Colyseus SDK\package.json'
+2021-10-05 15:43:32-log: [Package] colyseus-sdk@0.14.0 enable
+2021-10-05 15:44:16-log: [Package] colyseus-sdk@0.14.0 disable
+2021-10-05 15:44:16-log: [Package] colyseus-sdk@0.14.0 enable

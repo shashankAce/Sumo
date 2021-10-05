@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+System.register(["__unresolved_0", "cc"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Node, macro, Vec3, EventHandler, SocketConnection, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, GameUIController;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, macro, Vec3, EventHandler, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, GameUIController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -26,8 +26,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       macro = _cc.macro;
       Vec3 = _cc.Vec3;
       EventHandler = _cc.EventHandler;
-    }, function (_unresolved_2) {
-      SocketConnection = _unresolved_2.SocketConnection;
     }],
     execute: function () {
       _crd = true;
@@ -68,10 +66,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.node.on(Node.EventType.TOUCH_MOVE, this.touchMove, this);
           this.node.on(Node.EventType.TOUCH_START, this.touchStart, this);
           this.node.on(Node.EventType.TOUCH_END, this.touchEnded, this);
-          this.socketConnection = new (_crd && SocketConnection === void 0 ? (_reportPossibleCrUseOfSocketConnection({
-            error: Error()
-          }), SocketConnection) : SocketConnection)();
-          this.socketConnection.connect(this.onConnect);
         }
 
         onConnect() {}

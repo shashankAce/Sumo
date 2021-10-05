@@ -443,7 +443,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 16501295.563799977,
+    "mTimestamp": 20530765.960500002,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -571,6 +571,20 @@
             "column": 63
           }
         }
+      },
+      {
+        "value": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.js",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 7
+          },
+          "end": {
+            "line": 13,
+            "column": 75
+          }
+        }
       }
     ],
     "modLoMetadata": {
@@ -612,6 +626,10 @@
       {
         "isExternal": false,
         "url": "file:///D:/Office/Sumo/assets/Script/menuScene/Sumo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js"
       }
     ]
   },
@@ -1970,7 +1988,7 @@
     ]
   },
   "file:///D:/Office/Sumo/assets/Script/gameScene/GameUIController.ts": {
-    "mTimestamp": 1633428016084.3184,
+    "mTimestamp": 1633431843813.7676,
     "chunkId": "assets/Script/gameScene/GameUIController.js",
     "imports": [
       {
@@ -1992,20 +2010,6 @@
             "column": 106
           }
         }
-      },
-      {
-        "value": "./multiplayer/SocketConnection",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 33
-          },
-          "end": {
-            "line": 3,
-            "column": 65
-          }
-        }
       }
     ],
     "modLoMetadata": {
@@ -2023,10 +2027,6 @@
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts"
       }
     ]
   },
@@ -2102,7 +2102,7 @@
     ]
   },
   "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts": {
-    "mTimestamp": 1633427994449.5232,
+    "mTimestamp": 1633432129693.9473,
     "chunkId": "assets/Script/gameScene/multiplayer/SocketConnection.js",
     "imports": [
       {
@@ -2117,24 +2117,25 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 27
+            "column": 38
           },
           "end": {
             "line": 2,
-            "column": 31
+            "column": 42
           }
         }
       },
       {
-        "value": "colyseus.js",
+        "value": "db://colyseus-sdk/colyseus.js",
+        "rewritten": "__unresolved_1",
         "loc": {
           "start": {
             "line": 3,
-            "column": 29
+            "column": 21
           },
           "end": {
             "line": 3,
-            "column": 42
+            "column": 52
           }
         }
       }
@@ -2157,7 +2158,144 @@
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/node_modules/colyseus.js/dist/colyseus.mjs?cjs=&original=.js"
+        "url": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js": {
+    "mTimestamp": 1623185760000,
+    "chunkId": "extensions/colyseus-sdk/runtime/colyseus.proxy.js?cjs&original=.js",
+    "imports": [
+      {
+        "value": "./colyseus.js",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 36
+          },
+          "end": {
+            "line": 2,
+            "column": 51
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/ml/cjs-loader.mjs",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 19
+          },
+          "end": {
+            "line": 3,
+            "column": 52
+          }
+        }
+      },
+      {
+        "value": "./colyseus.js",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 29
+          }
+        }
+      },
+      {
+        "value": "./colyseus.js",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 29
+          },
+          "end": {
+            "line": 9,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.js"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/ml/cjs-loader.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.js"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.js"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.js": {
+    "mTimestamp": 1623185760000,
+    "chunkId": "extensions/colyseus-sdk/runtime/colyseus.js",
+    "imports": [
+      {
+        "value": "cce:/internal/ml/cjs-loader.mjs",
+        "rewritten": "__unresolved_0"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "cjs",
+      "cjs": {
+        "exports": [
+          "Protocol",
+          "ErrorCode",
+          "OPERATION",
+          "ArraySchema",
+          "CollectionSchema",
+          "Context",
+          "MapSchema",
+          "Reflection",
+          "ReflectionField",
+          "ReflectionType",
+          "Schema",
+          "SchemaDefinition",
+          "SetSchema",
+          "decode",
+          "defineTypes",
+          "deprecated",
+          "dumpChanges",
+          "encode",
+          "filter",
+          "filterChildren",
+          "hasFilter",
+          "registerType",
+          "type",
+          "__esModule",
+          "Platform",
+          "Auth",
+          "Client",
+          "Room",
+          "SchemaSerializer",
+          "registerSerializer"
+        ],
+        "reexports": []
+      }
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/ml/cjs-loader.mjs"
       }
     ]
   }

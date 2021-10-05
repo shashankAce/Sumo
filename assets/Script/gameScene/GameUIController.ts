@@ -32,10 +32,6 @@ export class GameUIController extends Component {
         this.node.on(Node.EventType.TOUCH_START, this.touchStart, this);
         this.node.on(Node.EventType.TOUCH_END, this.touchEnded, this);
 
-
-        this.socketConnection = new SocketConnection();
-        this.socketConnection.connect(this.onConnect);
-
     }
 
     onConnect() {

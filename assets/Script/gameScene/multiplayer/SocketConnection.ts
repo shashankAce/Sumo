@@ -1,44 +1,55 @@
 
-import { _decorator } from 'cc';
-import { Client, Room } from 'colyseus.js';
+import { Component, _decorator } from 'cc';
+import Colyseus from 'db://colyseus-sdk/colyseus.js';
 
-const { ccclass } = _decorator;
+const { ccclass, property } = _decorator;
 
 @ccclass('SocketConnection')
-export class SocketConnection {
+export class SocketConnection extends Component {
 
-    client: Client;
     playerName: string;
     isConnected: boolean;
-    room: Room;
 
-    connect(afterConnnect: Function) {
+    @property hostname = "localhost";
+    @property port = 2567;
+    @property useSSL = false;
 
-        let domain = window.location.href.split('/')[2];
-        let url = "ws://" + domain.split(':')[0] + ':2567';
+    client!: Colyseus.Client;
+    room!: Colyseus.Room;
 
-        this.client = new Client(url);
+    start() {
+        // Instantiate Colyseus Client
+        // connects into (ws|wss)://hostname[:port]
 
-        this.client.create('SumoRoom').then(room => {
+        /* let domain = window.location.href.split('/')[2];
+        let url = "ws://" + domain.split(':')[0] + ':2567'; */
 
-            this.isConnected = true;
-            this.onConnect(room);
+        let url = `${this.useSSL ? "wss" : "ws"}://${this.hostname}${([443, 80].includes(this.port) || this.useSSL) ? "" : `:${this.port}`}`;
+        this.client = new Colyseus.Client(`${this.useSSL ? "wss" : "ws"}://${this.hostname}${([443, 80].includes(this.port) || this.useSSL) ? "" : `:${this.port}`}`);
 
-            afterConnnect();
-
-            console.log("Room Created Successfully", room);
-
-
-        }).catch((e) => {
-            console.log(e);
-        });
+        console.log(`Connecting server to ${url}`);
+        this.connect();
     }
 
-    onConnect(room: Room) {
-        this.room = room;
+
+    async connect() {
+        try {
+            this.room = await this.client.joinOrCreate("SumoRoom");
 
 
+            console.log("Room joined successfully!");
+            console.log("user's sessionId:", this.room.sessionId);
 
+            this.room.onStateChange((state) => {
+                console.log("onStateChange: ", state);
+            });
 
+            this.room.onLeave((code) => {
+                console.log("onLeave:", code);
+            });
+
+        } catch (e) {
+            console.error(e);
+        }
     }
 }

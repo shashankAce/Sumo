@@ -501,7 +501,7 @@
     "missing": false
   },
   "D:\\Office\\Sumo\\assets\\GameScene.scene": {
-    "time": 1633427725901.7664,
+    "time": 1633431923967.8298,
     "uuid": "a81941e8-7263-46ef-83db-06d31c197e79",
     "missing": false
   },
@@ -835,7 +835,7 @@
     "time": 1632898026594.9224
   },
   "D:\\Office\\Sumo\\assets\\Script\\gameScene\\GameUIController.ts": {
-    "time": 1633428016084.3184,
+    "time": 1633431843813.7676,
     "uuid": "62ee6284-c1ba-4934-a009-a394e65d1828",
     "missing": false
   },
@@ -867,7 +867,7 @@
     "time": 1633412174663.072
   },
   "D:\\Office\\Sumo\\assets\\Script\\gameScene\\multiplayer\\SocketConnection.ts": {
-    "time": 1633427994449.5232,
+    "time": 1633432129693.9473,
     "uuid": "aa55c809-fc8b-489e-b562-243a39166a97",
     "missing": false
   }
