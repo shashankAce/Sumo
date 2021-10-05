@@ -501,7 +501,7 @@
     "missing": false
   },
   "D:\\Office\\Sumo\\assets\\GameScene.scene": {
-    "time": 1633411676932.752,
+    "time": 1633425195644.3655,
     "uuid": "a81941e8-7263-46ef-83db-06d31c197e79",
     "missing": false
   },
@@ -521,7 +521,7 @@
     "missing": false
   },
   "D:\\Office\\Sumo\\assets\\Script": {
-    "time": 1632901184694.5393,
+    "time": 1633412163352.2878,
     "uuid": "6ca7f611-4368-488e-9c50-2802b5045d7c",
     "missing": false
   },
@@ -641,7 +641,7 @@
     "missing": false
   },
   "D:\\Office\\Sumo\\assets\\Script\\Player.ts": {
-    "time": 1632906972844.6487,
+    "time": 1633412479865.069,
     "uuid": "3cbf7679-fbf3-471e-98bf-90fb0931dcb4",
     "missing": false
   },
@@ -821,6 +821,38 @@
   "D:\\Office\\Sumo\\assets\\Models\\log_cabin\\log_cabin.fbx": {
     "time": 1612950586000,
     "uuid": "2be36225-afb4-472e-8e88-7c6e4ae0a4af",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Script\\multiplayer.meta": {
+    "time": 1633412163353.2903
+  },
+  "D:\\Office\\Sumo\\assets\\Script\\multiplayer": {
+    "time": 1633425095037.5112,
+    "uuid": "853a60ef-ee4b-42ee-88e5-e20c13856e5f",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Script\\multiplayer\\SocketConnection.ts.meta": {
+    "time": 1633412174663.072
+  },
+  "D:\\Office\\Sumo\\assets\\Script\\multiplayer\\SocketConnection.ts": {
+    "time": 1633425149361.822,
+    "uuid": "aa55c809-fc8b-489e-b562-243a39166a97",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Script\\multiplayer\\Config.ts.meta": {
+    "time": 1633424959204.3262
+  },
+  "D:\\Office\\Sumo\\assets\\Script\\multiplayer\\Config.ts": {
+    "time": 1633424973218.4583,
+    "uuid": "392b782c-5cbf-4b49-ac71-93191f0f14a9",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Script\\multiplayer\\MiloManager.ts.meta": {
+    "time": 1633425095039.513
+  },
+  "D:\\Office\\Sumo\\assets\\Script\\multiplayer\\MiloManager.ts": {
+    "time": 1633425135517.2373,
+    "uuid": "81952837-b513-4b6a-8020-8be425d4eccb",
     "missing": false
   }
 }

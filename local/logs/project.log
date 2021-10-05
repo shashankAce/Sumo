@@ -68,3 +68,435 @@ https://github.com/browserslist/browserslist#browsers-data-updating
 2021-10-05 10:57:11-info: [Scene] Forward render pipeline initialized.
 2021-10-05 10:57:12-log: [Scene] openEngine end
 2021-10-05 10:57:12-log: [Scene] configureEngine end
+2021-10-05 11:10:12-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts: SyntaxError: unknown: Missing semicolon (23:11)
+
+  21 |
+  22 |         let userInfo = 
+> 23 |         let playerInfo = userInfo.players.find((obj) => {
+     |            ^
+  24 |             return obj.userId == userInfo.initInfo.userId
+  25 |         });
+  26 |         this.playerName = playerInfo.name;.
+2021-10-05 11:10:12-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts: SyntaxError: unknown: Missing semicolon (23:11)
+
+  21 |
+  22 |         let userInfo = 
+> 23 |         let playerInfo = userInfo.players.find((obj) => {
+     |            ^
+  24 |             return obj.userId == userInfo.initInfo.userId
+  25 |         });
+  26 |         this.playerName = playerInfo.name;.
+2021-10-05 11:11:02-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts: SyntaxError: unknown: Missing semicolon (23:11)
+
+  21 |
+  22 |         let userInfo = 
+> 23 |         let playerInfo = userInfo.players.find((obj) => {
+     |            ^
+  24 |             return obj.userId == userInfo.initInfo.userId
+  25 |         });
+  26 |         this.playerName = playerInfo.name;.
+2021-10-05 11:11:03-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts: SyntaxError: unknown: Missing semicolon (23:11)
+
+  21 |
+  22 |         let userInfo = 
+> 23 |         let playerInfo = userInfo.players.find((obj) => {
+     |            ^
+  24 |             return obj.userId == userInfo.initInfo.userId
+  25 |         });
+  26 |         this.playerName = playerInfo.name;.
+2021-10-05 11:45:07-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 11:45:07-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 11:45:08-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 11:45:09-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 11:45:09-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 11:45:12-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/SocketConnection.js (SystemJS Error#8 https://git.io/JvFET#8)
+2021-10-05 11:45:12-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
+getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+
+2021-10-05 11:50:18-error: Failed to resolve ./mx-multiplayer from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-multiplayer" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 11:50:18-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 11:50:18-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 11:50:18-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 11:50:18-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 11:50:18-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 11:50:18-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 11:50:19-error: Failed to resolve ./mx-multiplayer from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-multiplayer" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 11:50:19-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 11:50:19-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 11:50:19-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 11:50:19-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 11:50:19-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 11:50:19-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 14:09:23-error: Failed to resolve ./mx-multiplayer from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-multiplayer" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:09:23-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:09:23-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:09:23-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 14:09:23-error: Failed to resolve ./mx-multiplayer from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-multiplayer" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:09:23-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:09:23-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:09:25-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/SocketConnection.js (SystemJS Error#8 https://git.io/JvFET#8)
+2021-10-05 14:09:25-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
+getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
+promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
+promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
+systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
+import@http://localhost:7456/scripting/systemjs/system.js:318:25
+@http://localhost:7456/preview-app/main.js:1:3891
+o/</<@http://localhost:7456/preview-app/main.js:1:1334
+o/<@http://localhost:7456/preview-app/main.js:1:1439
+a@http://localhost:7456/preview-app/main.js:1:156
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+n</<@http://localhost:7456/preview-app/main.js:1:330
+n<@http://localhost:7456/preview-app/main.js:1:100
+@http://localhost:7456/preview-app/main.js:1:1501
+@http://localhost:7456/preview-app/index.js:1:3004
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+a@http://localhost:7456/preview-app/index.js:1:202
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+i</<@http://localhost:7456/preview-app/index.js:1:376
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1754
+@http://localhost:7456/preview-app/index.js:1:3047
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+i</<@http://localhost:7456/preview-app/index.js:1:398
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1646
+window.onload/<@http://localhost:7456/:148:24
+promise callback*window.onload@http://localhost:7456/:147:48
+EventHandlerNonNull*@http://localhost:7456/:146:5
+
+2021-10-05 14:30:54-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:30:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:30:54-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:30:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:30:54-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 14:30:54-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:30:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:30:54-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:30:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:30:56-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/SocketConnection.js (SystemJS Error#8 https://git.io/JvFET#8)
+2021-10-05 14:30:56-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
+getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
+promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
+promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
+systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
+import@http://localhost:7456/scripting/systemjs/system.js:318:25
+@http://localhost:7456/preview-app/main.js:1:3891
+o/</<@http://localhost:7456/preview-app/main.js:1:1334
+o/<@http://localhost:7456/preview-app/main.js:1:1439
+a@http://localhost:7456/preview-app/main.js:1:156
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+n</<@http://localhost:7456/preview-app/main.js:1:330
+n<@http://localhost:7456/preview-app/main.js:1:100
+@http://localhost:7456/preview-app/main.js:1:1501
+@http://localhost:7456/preview-app/index.js:1:3004
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+a@http://localhost:7456/preview-app/index.js:1:202
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+i</<@http://localhost:7456/preview-app/index.js:1:376
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1754
+@http://localhost:7456/preview-app/index.js:1:3047
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+i</<@http://localhost:7456/preview-app/index.js:1:398
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1646
+window.onload/<@http://localhost:7456/:148:24
+promise callback*window.onload@http://localhost:7456/:147:48
+EventHandlerNonNull*@http://localhost:7456/:146:5
+
+2021-10-05 14:38:03-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/Config.js: Error: Unexpected export statement in CJS module.
+  at @:2:8.
+2021-10-05 14:38:03-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/Config.proxy.js@63cjs&original=.js.
+2021-10-05 14:38:03-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 14:38:03-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/Config.js: Error: Unexpected export statement in CJS module.
+  at @:2:8.
+2021-10-05 14:38:05-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/Config.proxy.js@63cjs&original=.js (SystemJS Error#8 https://git.io/JvFET#8)
+2021-10-05 14:38:05-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
+getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
+promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
+promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
+systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
+import@http://localhost:7456/scripting/systemjs/system.js:318:25
+@http://localhost:7456/preview-app/main.js:1:3891
+o/</<@http://localhost:7456/preview-app/main.js:1:1334
+o/<@http://localhost:7456/preview-app/main.js:1:1439
+a@http://localhost:7456/preview-app/main.js:1:156
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+n</<@http://localhost:7456/preview-app/main.js:1:330
+n<@http://localhost:7456/preview-app/main.js:1:100
+@http://localhost:7456/preview-app/main.js:1:1501
+@http://localhost:7456/preview-app/index.js:1:3004
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+a@http://localhost:7456/preview-app/index.js:1:202
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+i</<@http://localhost:7456/preview-app/index.js:1:376
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1754
+@http://localhost:7456/preview-app/index.js:1:3047
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+i</<@http://localhost:7456/preview-app/index.js:1:398
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1646
+window.onload/<@http://localhost:7456/:148:24
+promise callback*window.onload@http://localhost:7456/:147:48
+EventHandlerNonNull*@http://localhost:7456/:146:5
+
+2021-10-05 14:38:05-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/SocketConnection.js (SystemJS Error#8 https://git.io/JvFET#8)
+2021-10-05 14:38:05-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
+getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
+promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
+promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
+systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
+import@http://localhost:7456/scripting/systemjs/system.js:318:25
+@http://localhost:7456/preview-app/main.js:1:3891
+o/</<@http://localhost:7456/preview-app/main.js:1:1334
+o/<@http://localhost:7456/preview-app/main.js:1:1439
+a@http://localhost:7456/preview-app/main.js:1:156
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+n</<@http://localhost:7456/preview-app/main.js:1:330
+n<@http://localhost:7456/preview-app/main.js:1:100
+@http://localhost:7456/preview-app/main.js:1:1501
+@http://localhost:7456/preview-app/index.js:1:3004
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+a@http://localhost:7456/preview-app/index.js:1:202
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+i</<@http://localhost:7456/preview-app/index.js:1:376
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1754
+@http://localhost:7456/preview-app/index.js:1:3047
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+i</<@http://localhost:7456/preview-app/index.js:1:398
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1646
+window.onload/<@http://localhost:7456/:148:24
+promise callback*window.onload@http://localhost:7456/:147:48
+EventHandlerNonNull*@http://localhost:7456/:146:5
+
+2021-10-05 14:38:10-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/Config.proxy.js@63cjs&original=.js.
+2021-10-05 14:38:10-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 14:39:10-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 14:39:19-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 14:40:54-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:40:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:40:54-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/mx-milo-manager.js: Error: Unexpected export statement in CJS module.
+  at @:2:8.
+2021-10-05 14:40:54-error: [Scene] Failed to resolve __unresolved_2 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 14:40:54-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/mx-milo-manager.proxy.js@63cjs&original=.js.
+2021-10-05 14:40:54-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
+Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
+2021-10-05 14:40:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
+2021-10-05 14:40:54-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/mx-milo-manager.js: Error: Unexpected export statement in CJS module.
+  at @:2:8.
+2021-10-05 14:40:56-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/mx-milo-manager.proxy.js@63cjs&original=.js (SystemJS Error#8 https://git.io/JvFET#8)
+2021-10-05 14:40:56-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
+getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
+promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
+promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
+systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
+import@http://localhost:7456/scripting/systemjs/system.js:318:25
+@http://localhost:7456/preview-app/main.js:1:3891
+o/</<@http://localhost:7456/preview-app/main.js:1:1334
+o/<@http://localhost:7456/preview-app/main.js:1:1439
+a@http://localhost:7456/preview-app/main.js:1:156
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+n</<@http://localhost:7456/preview-app/main.js:1:330
+n<@http://localhost:7456/preview-app/main.js:1:100
+@http://localhost:7456/preview-app/main.js:1:1501
+@http://localhost:7456/preview-app/index.js:1:3004
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+a@http://localhost:7456/preview-app/index.js:1:202
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+i</<@http://localhost:7456/preview-app/index.js:1:376
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1754
+@http://localhost:7456/preview-app/index.js:1:3047
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+i</<@http://localhost:7456/preview-app/index.js:1:398
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1646
+window.onload/<@http://localhost:7456/:148:24
+promise callback*window.onload@http://localhost:7456/:147:48
+EventHandlerNonNull*@http://localhost:7456/:146:5
+
+2021-10-05 14:40:56-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_2' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/SocketConnection.js (SystemJS Error#8 https://git.io/JvFET#8)
+2021-10-05 14:40:56-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
+systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
+getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
+promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
+getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
+systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
+promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
+systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
+import@http://localhost:7456/scripting/systemjs/system.js:318:25
+@http://localhost:7456/preview-app/main.js:1:3891
+o/</<@http://localhost:7456/preview-app/main.js:1:1334
+o/<@http://localhost:7456/preview-app/main.js:1:1439
+a@http://localhost:7456/preview-app/main.js:1:156
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+a@http://localhost:7456/preview-app/main.js:1:153
+promise callback*c@http://localhost:7456/preview-app/main.js:1:319
+n</<@http://localhost:7456/preview-app/main.js:1:330
+n<@http://localhost:7456/preview-app/main.js:1:100
+@http://localhost:7456/preview-app/main.js:1:1501
+@http://localhost:7456/preview-app/index.js:1:3004
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+a@http://localhost:7456/preview-app/index.js:1:202
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+a@http://localhost:7456/preview-app/index.js:1:199
+promise callback*c@http://localhost:7456/preview-app/index.js:1:365
+i</<@http://localhost:7456/preview-app/index.js:1:376
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1754
+@http://localhost:7456/preview-app/index.js:1:3047
+s/</<@http://localhost:7456/preview-app/index.js:1:1380
+s/<@http://localhost:7456/preview-app/index.js:1:1485
+i</<@http://localhost:7456/preview-app/index.js:1:398
+i<@http://localhost:7456/preview-app/index.js:1:146
+@http://localhost:7456/preview-app/index.js:1:1646
+window.onload/<@http://localhost:7456/:148:24
+promise callback*window.onload@http://localhost:7456/:147:48
+EventHandlerNonNull*@http://localhost:7456/:146:5
+
+2021-10-05 14:41:21-error: [Scene] Failed to resolve __unresolved_2 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
+2021-10-05 14:41:35-error: [Scene] Failed to resolve __unresolved_2 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.

@@ -16,6 +16,7 @@ const { ccclass, property } = _decorator;
 const CELL_TIME = 0.016;
 const SPEED = 4;
 
+
 @ccclass('Player')
 export class Player extends Component {
 
@@ -29,7 +30,7 @@ export class Player extends Component {
     touchCallBack(vector: Vec3, angle: number) {
         Vec3.rotateZ(vector, vector, Vec3.ZERO, this.playerCamera.eulerAngles.y * macro.RAD);
         this._vector = vector.normalize();
-        
+
         if (angle) {
             this.node.eulerAngles = new Vec3(0, angle + 90 + this.playerCamera.eulerAngles.y, 0);
         }

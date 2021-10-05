@@ -20,11 +20,6 @@
     "physicalLocation": "fs/0/assets/Script/Menu.js",
     "mTimestamp": 1632898086592
   },
-  "quick-pack:/cce/internal/code-quality/cr.js": {
-    "imports": {},
-    "physicalLocation": "cce/internal/code-quality/cr.js",
-    "mTimestamp": 1632599641307
-  },
   "assets/Script/Sumo.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
@@ -38,13 +33,6 @@
     },
     "physicalLocation": "fs/0/assets/Script/MenuController.js",
     "mTimestamp": 1632898086539
-  },
-  "assets/Script/Player.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Player.js",
-    "mTimestamp": 1632907166514
   },
   "assets/Script/GameUIController.js": {
     "imports": {
@@ -157,18 +145,121 @@
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
   },
+  "assets/Script/socket/Connection.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/socket/Connection.js",
+    "mTimestamp": 1633412144461
+  },
+  "quick-pack:/cce/internal/ml/cjs-loader.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/ml/cjs-loader.js",
+    "mTimestamp": 1633412463365
+  },
+  "quick-pack:/cce/internal/code-quality/cr.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/code-quality/cr.js",
+    "mTimestamp": 1633412463384
+  },
+  "assets/Script/Player.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Player.js",
+    "mTimestamp": 1633412650235
+  },
+  "node_modules/colyseus.js/dist/colyseus.proxy.js?cjs&original=.js": {
+    "imports": {
+      "__unresolved_1": "quick-pack:/cce/internal/ml/cjs-loader.js",
+      "__unresolved_0": "node_modules/colyseus.js/dist/colyseus.js",
+      "__unresolved_2": "node_modules/colyseus.js/dist/colyseus.js",
+      "__unresolved_3": "node_modules/colyseus.js/dist/colyseus.js"
+    },
+    "physicalLocation": "fs/0/node_modules/colyseus.js/dist/colyseus.proxy.js@63cjs&original=.js",
+    "mTimestamp": 1633414509104
+  },
+  "node_modules/colyseus.js/dist/colyseus.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/ml/cjs-loader.js"
+    },
+    "physicalLocation": "fs/0/node_modules/colyseus.js/dist/colyseus.js",
+    "mTimestamp": 1633414510672
+  },
+  "assets/Script/multiplayer/mx-multiplayer.proxy.js?cjs&original=.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_2": "quick-pack:/cce/internal/ml/cjs-loader.js",
+      "__unresolved_1": "assets/Script/multiplayer/mx-multiplayer.js",
+      "__unresolved_3": "assets/Script/multiplayer/mx-multiplayer.js",
+      "__unresolved_4": "assets/Script/multiplayer/mx-multiplayer.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/multiplayer/mx-multiplayer.proxy.js@63cjs&original=.js",
+    "mTimestamp": 1633414819026
+  },
+  "assets/Script/multiplayer/mx-multiplayer.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/ml/cjs-loader.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/multiplayer/mx-multiplayer.js",
+    "mTimestamp": 1633414819076
+  },
+  "assets/Script/multiplayer/Config.proxy.js?cjs&original=.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_2": "quick-pack:/cce/internal/ml/cjs-loader.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/multiplayer/Config.proxy.js@63cjs&original=.js",
+    "mTimestamp": 1633424883493
+  },
+  "assets/Script/multiplayer/Config.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/multiplayer/Config.js",
+    "mTimestamp": 1633425054448
+  },
+  "assets/Script/multiplayer/mx-milo-manager.proxy.js?cjs&original=.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_2": "quick-pack:/cce/internal/ml/cjs-loader.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/multiplayer/mx-milo-manager.proxy.js@63cjs&original=.js",
+    "mTimestamp": 1633425054534
+  },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
       "__unresolved_0": "assets/Script/Bot.js",
-      "__unresolved_1": "assets/Script/GameUIController.js",
       "__unresolved_2": "assets/Script/Menu.js",
       "__unresolved_3": "assets/Script/MenuController.js",
+      "__unresolved_1": "assets/Script/GameUIController.js",
+      "__unresolved_5": "assets/Script/Sumo.js",
       "__unresolved_4": "assets/Script/Player.js",
-      "__unresolved_5": "assets/Script/Sumo.js"
+      "__unresolved_6": "assets/Script/multiplayer/Config.js",
+      "__unresolved_8": "assets/Script/multiplayer/SocketConnection.js",
+      "__unresolved_7": "assets/Script/multiplayer/MiloManager.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1633411631538,
+    "mTimestamp": 1633425155637,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "assets/Script/multiplayer/SocketConnection.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "assets/Script/multiplayer/Config.js",
+      "__unresolved_2": "assets/Script/multiplayer/MiloManager.js",
+      "colyseus.js": "node_modules/colyseus.js/dist/colyseus.proxy.js?cjs&original=.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/multiplayer/SocketConnection.js",
+    "mTimestamp": 1633425155705
+  },
+  "assets/Script/multiplayer/MiloManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/multiplayer/MiloManager.js",
+    "mTimestamp": 1633425155726
   }
 }
