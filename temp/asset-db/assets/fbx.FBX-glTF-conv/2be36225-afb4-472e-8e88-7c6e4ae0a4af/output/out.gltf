@@ -1,0 +1,362 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1554,
+      "max": [
+        0.029501251876354218,
+        0.029999999329447746,
+        0.040441837161779404
+      ],
+      "min": [
+        -0.02950553223490715,
+        -0.029999999329447746,
+        0.0
+      ],
+      "name": "cabin/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1554,
+      "name": "cabin/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1554,
+      "name": "cabin/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 3816,
+      "name": "cabin/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 194,
+      "max": [
+        0.0,
+        0.0006760028772987425,
+        0.009455994702875614
+      ],
+      "min": [
+        -0.009399998933076859,
+        -0.0008879972156137228,
+        -0.009755995124578476
+      ],
+      "name": "cabin_door/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 194,
+      "name": "cabin_door/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 194,
+      "name": "cabin_door/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 486,
+      "name": "cabin_door/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 80,
+      "max": [
+        3.433227313553999e-10,
+        2.553462996601752e-09,
+        0.004050001036375761
+      ],
+      "min": [
+        -0.0046499986201524734,
+        -0.00039999448927119374,
+        -0.004049997311085463
+      ],
+      "name": "cabin_window_right/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 80,
+      "name": "cabin_window_right/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 80,
+      "name": "cabin_window_right/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 180,
+      "name": "cabin_window_right/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 80,
+      "max": [
+        0.0046499986201524734,
+        2.553462996601752e-09,
+        0.0041144415736198425
+      ],
+      "min": [
+        -3.433227313553999e-10,
+        -0.00039999448927119374,
+        -0.004014440346509218
+      ],
+      "name": "cabin_window_left/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 80,
+      "name": "cabin_window_left/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 80,
+      "name": "cabin_window_left/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 180,
+      "name": "cabin_window_left/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 49728,
+      "byteStride": 32,
+      "name": "cabin",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 15264,
+      "byteOffset": 49728
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6208,
+      "byteOffset": 64992,
+      "byteStride": 32,
+      "name": "cabin_door",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1944,
+      "byteOffset": 71200
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2560,
+      "byteOffset": 73144,
+      "byteStride": 32,
+      "name": "cabin_window_right",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 720,
+      "byteOffset": 75704
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2560,
+      "byteOffset": 76424,
+      "byteStride": 32,
+      "name": "cabin_window_left",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 720,
+      "byteOffset": 78984
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 79704,
+      "uri": "out.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "cabin",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "cabin",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "cabin_door",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "cabin_window_right",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "cabin_window_left",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3
+      ],
+      "mesh": 0,
+      "name": "cabin",
+      "rotation": [
+        -0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "translation": [
+        0.0,
+        -0.21746402978897095,
+        -2.384185791015625e-07
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "cabin_door",
+      "translation": [
+        0.004699999932199717,
+        -0.024500003084540367,
+        0.012024644762277603
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "cabin_window_right",
+      "translation": [
+        0.004699999466538429,
+        0.025499997660517693,
+        0.01782463677227497
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "cabin_window_left",
+      "translation": [
+        -0.004699999000877142,
+        0.025499997660517693,
+        0.017774637788534164
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

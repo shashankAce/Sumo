@@ -39,6 +39,20 @@
     "physicalLocation": "fs/0/assets/Script/MenuController.js",
     "mTimestamp": 1632898086539
   },
+  "assets/Script/Player.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Player.js",
+    "mTimestamp": 1632907166514
+  },
+  "assets/Script/GameUIController.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/GameUIController.js",
+    "mTimestamp": 1632907980035
+  },
   "quick-pack:/cce/internal/x/cc.js": {
     "imports": {
       "__unresolved_0": {
@@ -139,36 +153,22 @@
       }
     },
     "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1632898086247,
+    "mTimestamp": 1633411631511,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
-  },
-  "assets/Script/Player.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Player.js",
-    "mTimestamp": 1632907166514
   },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
       "__unresolved_0": "assets/Script/Bot.js",
+      "__unresolved_1": "assets/Script/GameUIController.js",
       "__unresolved_2": "assets/Script/Menu.js",
       "__unresolved_3": "assets/Script/MenuController.js",
       "__unresolved_4": "assets/Script/Player.js",
-      "__unresolved_5": "assets/Script/Sumo.js",
-      "__unresolved_1": "assets/Script/GameUIController.js"
+      "__unresolved_5": "assets/Script/Sumo.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1632907447688,
+    "mTimestamp": 1633411631538,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
-  },
-  "assets/Script/GameUIController.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/GameUIController.js",
-    "mTimestamp": 1632907447755
   }
 }

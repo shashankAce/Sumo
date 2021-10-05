@@ -19,6 +19,12 @@
     "./mods/fs/0/assets/Script/MenuController.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
+    "./mods/fs/0/assets/Script/Player.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/Script/GameUIController.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
     "./mods/cce/internal/x/cc.js": {
       "__unresolved_0": "cce:/internal/x/cc-fu/base",
       "__unresolved_1": "cce:/internal/x/cc-fu/gfx-webgl",
@@ -45,19 +51,13 @@
       "__unresolved_22": "cce:/internal/x/cc-fu/spine",
       "__unresolved_23": "cce:/internal/x/cc-fu/dragon-bones"
     },
-    "./mods/fs/0/assets/Script/Player.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
-    },
     "./mods/cce/internal/x/prerequisite-imports.js": {
       "__unresolved_0": "./mods/fs/0/assets/Script/Bot.js",
+      "__unresolved_1": "./mods/fs/0/assets/Script/GameUIController.js",
       "__unresolved_2": "./mods/fs/0/assets/Script/Menu.js",
       "__unresolved_3": "./mods/fs/0/assets/Script/MenuController.js",
       "__unresolved_4": "./mods/fs/0/assets/Script/Player.js",
-      "__unresolved_5": "./mods/fs/0/assets/Script/Sumo.js",
-      "__unresolved_1": "./mods/fs/0/assets/Script/GameUIController.js"
-    },
-    "./mods/fs/0/assets/Script/GameUIController.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
+      "__unresolved_5": "./mods/fs/0/assets/Script/Sumo.js"
     }
   }
 }

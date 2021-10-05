@@ -77,14 +77,16 @@ System.register(["cc"], function (_export, _context) {
         };
 
         _proto.touchMove = function touchMove(touch) {
-          /*  let loc = touch.getUILocation();
-           let pos = this.node.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(loc.x, loc.y));
-           let angle = Math.atan2(pos.y, pos.x);
-           this.touchEventCallBack.forEach(c => c.emit([pos, angle * macro.DEG])); */
+          /*  
+          ***** Do not delete this commented code
+            let loc = touch.getUILocation();
+          let pos = this.node.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(loc.x, loc.y));
+          let angle = Math.atan2(pos.y, pos.x);
+          this.touchEventCallBack.forEach(c => c.emit([pos, angle * macro.DEG])); 
+          */
           var loc = touch.getLocation();
           var pos = new Vec3(loc.x - this.startLoc.x, loc.y - this.startLoc.y);
           var angle = this.get_angle(this.startLoc.x, this.startLoc.y, loc.x, loc.y);
-          console.log(angle);
           this.touchEventCallBack.forEach(function (c) {
             return c.emit([pos, angle]);
           });

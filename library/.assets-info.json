@@ -501,7 +501,7 @@
     "missing": false
   },
   "D:\\Office\\Sumo\\assets\\GameScene.scene": {
-    "time": 1632902013282.7888,
+    "time": 1633411676932.752,
     "uuid": "a81941e8-7263-46ef-83db-06d31c197e79",
     "missing": false
   },
@@ -516,7 +516,7 @@
     "missing": false
   },
   "D:\\Office\\Sumo\\assets\\pngs": {
-    "time": 1632899509295.903,
+    "time": 1632914941180.2139,
     "uuid": "bf32f5fa-49dc-4ef6-a1cd-77f7014fe863",
     "missing": false
   },
@@ -601,7 +601,7 @@
     "missing": false
   },
   "D:\\Office\\Sumo\\assets\\Material\\platform.mtl": {
-    "time": 1632899577074.1643,
+    "time": 1632914968458.9807,
     "uuid": "9456d241-c9d4-4943-8880-a03d54eadd4d",
     "missing": false
   },
@@ -626,7 +626,7 @@
     "missing": false
   },
   "D:\\Office\\Sumo\\assets\\Script\\GameUIController.ts": {
-    "time": 1632907441918.8806,
+    "time": 1632907541047.0664,
     "uuid": "62ee6284-c1ba-4934-a009-a394e65d1828",
     "missing": false
   },
@@ -763,8 +763,64 @@
     "time": 1632899509320.9092
   },
   "D:\\Office\\Sumo\\assets\\pngs\\250px-FGUK_Pop_up_box.png": {
-    "time": 1632899424285.774,
+    "time": 1632900431140.9438,
     "uuid": "e183e8d4-da19-4a34-86e8-71abc78644d4",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Models.meta": {
+    "time": 1632915163996.4072
+  },
+  "D:\\Office\\Sumo\\assets\\Models": {
+    "time": 1632915430368.8684,
+    "uuid": "c94a9f01-19eb-4b86-be14-b0720a3bc03a",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\EA03_Items_House_Apple_01a.fbx.meta": {
+    "time": 1632915169875.2598
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\EA03_Items_House_Apple_01a.fbx": {
+    "time": 1572938152000,
+    "uuid": "1c6e4b71-f4d9-43b3-b1a3-8977c026cc32",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\EA03_Prop_House_Shelf_01g.fbx.meta": {
+    "time": 1632915291888.364
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\EA03_Prop_House_Shelf_01g.fbx": {
+    "time": 1561182778000,
+    "uuid": "a29f701c-140a-475f-bf89-05ea2d0389b0",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\log_cabin.meta": {
+    "time": 1632915430374.2744
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\log_cabin\\log_cabin.fbx.meta": {
+    "time": 1632915430606.708
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\log_cabin\\log_cabin_1024px.png.meta": {
+    "time": 1632915430495.3108
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\log_cabin\\log_cabin_4096px.png.meta": {
+    "time": 1632915430543.7793
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\log_cabin": {
+    "time": 1632915430372.8691,
+    "uuid": "2a467b3e-be5d-468f-b341-e6ad7d9423ce",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\log_cabin\\log_cabin_1024px.png": {
+    "time": 1612799494000,
+    "uuid": "d03cb6b8-1243-4998-9d4b-c60642c7575f",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\log_cabin\\log_cabin_4096px.png": {
+    "time": 1612476280000,
+    "uuid": "c9c7488a-be17-4173-a27b-c2d7287a59f1",
+    "missing": false
+  },
+  "D:\\Office\\Sumo\\assets\\Models\\log_cabin\\log_cabin.fbx": {
+    "time": 1612950586000,
+    "uuid": "2be36225-afb4-472e-8e88-7c6e4ae0a4af",
     "missing": false
   }
 }
