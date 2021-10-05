@@ -101,21 +101,7 @@
     "./mods/fs/0/assets/Script/menuScene/Sumo.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/cce/internal/x/prerequisite-imports.js": {
-      "__unresolved_6": "./mods/fs/0/assets/Script/menuScene/Menu.js",
-      "__unresolved_7": "./mods/fs/0/assets/Script/menuScene/MenuController.js",
-      "__unresolved_8": "./mods/fs/0/assets/Script/menuScene/Sumo.js",
-      "__unresolved_0": "./mods/fs/0/assets/Script/gameScene/Bot.js",
-      "__unresolved_1": "./mods/fs/0/assets/Script/gameScene/GameUIController.js",
-      "__unresolved_4": "./mods/fs/0/assets/Script/gameScene/multiplayer/MiloManager.js",
-      "__unresolved_2": "./mods/fs/0/assets/Script/gameScene/Player.js",
-      "__unresolved_3": "./mods/fs/0/assets/Script/gameScene/multiplayer/Config.js",
-      "__unresolved_5": "./mods/fs/0/assets/Script/gameScene/multiplayer/SocketConnection.js"
-    },
     "./mods/fs/0/assets/Script/gameScene/Bot.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
-    },
-    "./mods/fs/0/assets/Script/gameScene/GameUIController.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
     "./mods/fs/0/assets/Script/gameScene/multiplayer/MiloManager.js": {
@@ -124,13 +110,29 @@
     "./mods/fs/0/assets/Script/gameScene/multiplayer/Config.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
+    "./mods/fs/0/assets/Script/gameScene/Player.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/cce/internal/x/prerequisite-imports.js": {
+      "__unresolved_0": "./mods/fs/0/assets/Script/gameScene/Bot.js",
+      "__unresolved_2": "./mods/fs/0/assets/Script/gameScene/Player.js",
+      "__unresolved_4": "./mods/fs/0/assets/Script/gameScene/multiplayer/MiloManager.js",
+      "__unresolved_3": "./mods/fs/0/assets/Script/gameScene/multiplayer/Config.js",
+      "__unresolved_6": "./mods/fs/0/assets/Script/menuScene/Menu.js",
+      "__unresolved_7": "./mods/fs/0/assets/Script/menuScene/MenuController.js",
+      "__unresolved_8": "./mods/fs/0/assets/Script/menuScene/Sumo.js",
+      "__unresolved_5": "./mods/fs/0/assets/Script/gameScene/multiplayer/SocketConnection.js",
+      "__unresolved_1": "./mods/fs/0/assets/Script/gameScene/GameUIController.js"
+    },
+    "./mods/fs/0/assets/Script/gameScene/GameUIController.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/Script/gameScene/multiplayer/SocketConnection.js"
+    },
     "./mods/fs/0/assets/Script/gameScene/multiplayer/SocketConnection.js": {
       "cc": "./mods/cce/internal/x/cc.js",
       "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
       "colyseus.js": "./mods/fs/0/node_modules/colyseus.js/dist/colyseus.proxy.js@63cjs&original=.js"
-    },
-    "./mods/fs/0/assets/Script/gameScene/Player.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
     }
   }
 }

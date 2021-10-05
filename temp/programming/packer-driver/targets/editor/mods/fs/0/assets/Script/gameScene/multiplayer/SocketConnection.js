@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "colyseus.js"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Client, _dec, _class, _temp, _crd, ccclass, property, SocketConnection;
+  var _reporterNs, _cclegacy, _decorator, Client, _dec, _class, _temp, _crd, ccclass, SocketConnection;
 
   function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -19,7 +19,6 @@ System.register(["__unresolved_0", "cc", "colyseus.js"], function (_export, _con
     }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
-      Component = _cc.Component;
     }, function (_colyseusJs) {
       Client = _colyseusJs.Client;
     }],
@@ -29,14 +28,11 @@ System.register(["__unresolved_0", "cc", "colyseus.js"], function (_export, _con
       _cclegacy._RF.push({}, "aa55cgJ/ItInrViJDo5FmqX", "SocketConnection", undefined);
 
       ({
-        ccclass,
-        property
+        ccclass
       } = _decorator);
 
-      _export("SocketConnection", SocketConnection = (_dec = ccclass('SocketConnection'), _dec(_class = (_temp = class SocketConnection extends Component {
-        constructor(...args) {
-          super(...args);
-
+      _export("SocketConnection", SocketConnection = (_dec = ccclass('SocketConnection'), _dec(_class = (_temp = class SocketConnection {
+        constructor() {
           _defineProperty(this, "client", void 0);
 
           _defineProperty(this, "playerName", void 0);
@@ -46,7 +42,7 @@ System.register(["__unresolved_0", "cc", "colyseus.js"], function (_export, _con
           _defineProperty(this, "room", void 0);
         }
 
-        connect() {
+        connect(afterConnnect) {
           let domain = window.location.href.split('/')[2];
           let url = "ws://" + domain.split(':')[0] + ':2567';
           this.client = new (_crd && Client === void 0 ? (_reportPossibleCrUseOfClient({
@@ -55,6 +51,7 @@ System.register(["__unresolved_0", "cc", "colyseus.js"], function (_export, _con
           this.client.create('SumoRoom').then(room => {
             this.isConnected = true;
             this.onConnect(room);
+            afterConnnect();
             console.log("Room Created Successfully", room);
           }).catch(e => {
             console.log(e);

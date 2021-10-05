@@ -389,7 +389,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 16090485.369799972,
+    "mTimestamp": 16501047.747600019,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -1934,9 +1934,13 @@
     ]
   },
   "file:///D:/Office/Sumo/assets/Script/gameScene/GameUIController.ts": {
-    "mTimestamp": 1632907541047.0664,
+    "mTimestamp": 1633428016084.3184,
     "chunkId": "assets/Script/gameScene/GameUIController.js",
     "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
       {
         "value": "cc"
       },
@@ -1952,6 +1956,20 @@
             "column": 106
           }
         }
+      },
+      {
+        "value": "./multiplayer/SocketConnection",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 33
+          },
+          "end": {
+            "line": 3,
+            "column": 65
+          }
+        }
       }
     ],
     "modLoMetadata": {
@@ -1960,11 +1978,19 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
         "url": "cce:/internal/x/cc"
       },
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts"
       }
     ]
   },
@@ -2022,7 +2048,7 @@
     ]
   },
   "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts": {
-    "mTimestamp": 1633427193758.4597,
+    "mTimestamp": 1633427994449.5232,
     "chunkId": "assets/Script/gameScene/multiplayer/SocketConnection.js",
     "imports": [
       {
@@ -2037,11 +2063,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 44
+            "column": 27
           },
           "end": {
             "line": 2,
-            "column": 48
+            "column": 31
           }
         }
       },
