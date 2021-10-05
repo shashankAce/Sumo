@@ -1,21 +1,19 @@
 
-import { _decorator, Component, Node } from 'cc';
+import { _decorator } from 'cc';
 import { Client, Room } from 'colyseus.js';
 
-import { Constants } from './Config';
-import { MiloManager } from './MiloManager';
-
-const { ccclass, property } = _decorator;
+const { ccclass } = _decorator;
 
 @ccclass('SocketConnection')
-export class SocketConnection extends Component {
+export class SocketConnection {
 
     client: Client;
     playerName: string;
     isConnected: boolean;
     room: Room;
 
-    connect() {
+    connect(afterConnnect: Function) {
+
         let domain = window.location.href.split('/')[2];
         let url = "ws://" + domain.split(':')[0] + ':2567';
 
@@ -25,6 +23,9 @@ export class SocketConnection extends Component {
 
             this.isConnected = true;
             this.onConnect(room);
+
+            afterConnnect();
+
             console.log("Room Created Successfully", room);
 
 
@@ -35,6 +36,8 @@ export class SocketConnection extends Component {
 
     onConnect(room: Room) {
         this.room = room;
+
+
 
 
     }

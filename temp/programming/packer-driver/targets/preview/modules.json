@@ -443,11 +443,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 13537098.461399972,
+    "mTimestamp": 16090739.125499964,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/Bot.ts",
+        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/Bot.ts",
         "rewritten": "__unresolved_0",
         "loc": {
           "start": {
@@ -456,12 +456,12 @@
           },
           "end": {
             "line": 4,
-            "column": 52
+            "column": 62
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/GameUIController.ts",
+        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/GameUIController.ts",
         "rewritten": "__unresolved_1",
         "loc": {
           "start": {
@@ -470,12 +470,12 @@
           },
           "end": {
             "line": 5,
-            "column": 65
+            "column": 75
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/Menu.ts",
+        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/Player.ts",
         "rewritten": "__unresolved_2",
         "loc": {
           "start": {
@@ -484,12 +484,12 @@
           },
           "end": {
             "line": 6,
-            "column": 53
+            "column": 65
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/MenuController.ts",
+        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/Config.ts",
         "rewritten": "__unresolved_3",
         "loc": {
           "start": {
@@ -498,12 +498,12 @@
           },
           "end": {
             "line": 7,
-            "column": 63
+            "column": 77
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/Player.ts",
+        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts",
         "rewritten": "__unresolved_4",
         "loc": {
           "start": {
@@ -512,12 +512,12 @@
           },
           "end": {
             "line": 8,
-            "column": 55
+            "column": 82
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/Sumo.ts",
+        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts",
         "rewritten": "__unresolved_5",
         "loc": {
           "start": {
@@ -526,12 +526,12 @@
           },
           "end": {
             "line": 9,
-            "column": 53
+            "column": 87
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/multiplayer/Config.ts",
+        "value": "file:///D:/Office/Sumo/assets/Script/menuScene/Menu.ts",
         "rewritten": "__unresolved_6",
         "loc": {
           "start": {
@@ -540,12 +540,12 @@
           },
           "end": {
             "line": 10,
-            "column": 67
+            "column": 63
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/multiplayer/MiloManager.ts",
+        "value": "file:///D:/Office/Sumo/assets/Script/menuScene/MenuController.ts",
         "rewritten": "__unresolved_7",
         "loc": {
           "start": {
@@ -554,12 +554,12 @@
           },
           "end": {
             "line": 11,
-            "column": 72
+            "column": 73
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts",
+        "value": "file:///D:/Office/Sumo/assets/Script/menuScene/Sumo.ts",
         "rewritten": "__unresolved_8",
         "loc": {
           "start": {
@@ -568,7 +568,7 @@
           },
           "end": {
             "line": 12,
-            "column": 77
+            "column": 63
           }
         }
       }
@@ -579,39 +579,39 @@
     "resolvedImports": [
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/Bot.ts"
+        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/Bot.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/GameUIController.ts"
+        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/GameUIController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/Menu.ts"
+        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/Player.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/MenuController.ts"
+        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/Config.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/Player.ts"
+        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/Sumo.ts"
+        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/Config.ts"
+        "url": "file:///D:/Office/Sumo/assets/Script/menuScene/Menu.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/MiloManager.ts"
+        "url": "file:///D:/Office/Sumo/assets/Script/menuScene/MenuController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts"
+        "url": "file:///D:/Office/Sumo/assets/Script/menuScene/Sumo.ts"
       }
     ]
   },
@@ -1290,7 +1290,7 @@
     ]
   },
   "file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts": {
-    "mTimestamp": 1633425149361.822,
+    "mTimestamp": 1633427193758.4597,
     "chunkId": "assets/Script/multiplayer/SocketConnection.js",
     "imports": [
       {
@@ -1325,34 +1325,6 @@
             "column": 42
           }
         }
-      },
-      {
-        "value": "./Config",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 26
-          },
-          "end": {
-            "line": 5,
-            "column": 36
-          }
-        }
-      },
-      {
-        "value": "./MiloManager",
-        "rewritten": "__unresolved_2",
-        "loc": {
-          "start": {
-            "line": 6,
-            "column": 28
-          },
-          "end": {
-            "line": 6,
-            "column": 43
-          }
-        }
       }
     ],
     "modLoMetadata": {
@@ -1374,14 +1346,6 @@
       {
         "isExternal": false,
         "url": "file:///D:/Office/Sumo/node_modules/colyseus.js/dist/colyseus.mjs?cjs=&original=.js"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/Config.ts"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/MiloManager.ts"
       }
     ]
   },
@@ -1862,6 +1826,312 @@
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/assets/Script/menuScene/Menu.ts": {
+    "mTimestamp": 1632487574932.0962,
+    "chunkId": "assets/Script/menuScene/Menu.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 49
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/assets/Script/menuScene/Sumo.ts": {
+    "mTimestamp": 1632898026596.9226,
+    "chunkId": "assets/Script/menuScene/Sumo.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 75
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/assets/Script/menuScene/MenuController.ts": {
+    "mTimestamp": 1632898026595.9229,
+    "chunkId": "assets/Script/menuScene/MenuController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 144
+          },
+          "end": {
+            "line": 2,
+            "column": 148
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/assets/Script/gameScene/Bot.ts": {
+    "mTimestamp": 1632473119285.7983,
+    "chunkId": "assets/Script/gameScene/Bot.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/assets/Script/gameScene/GameUIController.ts": {
+    "mTimestamp": 1632907541047.0664,
+    "chunkId": "assets/Script/gameScene/GameUIController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 102
+          },
+          "end": {
+            "line": 2,
+            "column": 106
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts": {
+    "mTimestamp": 1633425135517.2373,
+    "chunkId": "assets/Script/gameScene/multiplayer/MiloManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/assets/Script/gameScene/Player.ts": {
+    "mTimestamp": 1633412479865.069,
+    "chunkId": "assets/Script/gameScene/Player.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 57
+          },
+          "end": {
+            "line": 2,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/Config.ts": {
+    "mTimestamp": 1633424973218.4583,
+    "chunkId": "assets/Script/gameScene/multiplayer/Config.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts": {
+    "mTimestamp": 1633427193758.4597,
+    "chunkId": "assets/Script/gameScene/multiplayer/SocketConnection.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "colyseus.js",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Office/Sumo/node_modules/colyseus.js/dist/colyseus.mjs?cjs=&original=.js"
       }
     ]
   }

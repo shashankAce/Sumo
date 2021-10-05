@@ -1,5 +1,6 @@
 
 import { _decorator, Component, Node, Vec2, EventTouch, macro, UITransform, Vec3, EventHandler } from 'cc';
+import { SocketConnection } from './multiplayer/SocketConnection';
 const { ccclass, property } = _decorator;
 
 /**
@@ -24,11 +25,21 @@ export class GameUIController extends Component {
         tooltip: 'Touch Drag'
     })
     touchEventCallBack: EventHandler[] = [];
+    socketConnection: SocketConnection;
 
     start() {
         this.node.on(Node.EventType.TOUCH_MOVE, this.touchMove, this);
         this.node.on(Node.EventType.TOUCH_START, this.touchStart, this);
         this.node.on(Node.EventType.TOUCH_END, this.touchEnded, this);
+
+
+        this.socketConnection = new SocketConnection();
+        this.socketConnection.connect(this.onConnect);
+
+    }
+
+    onConnect() {
+
     }
 
     touchMove(touch: EventTouch) {

@@ -215,23 +215,6 @@
     "physicalLocation": "fs/0/assets/Script/multiplayer/mx-milo-manager.proxy.js@63cjs&original=.js",
     "mTimestamp": 1633425054379
   },
-  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
-    "imports": {
-      "__unresolved_0": "assets/Script/Bot.js",
-      "__unresolved_1": "assets/Script/GameUIController.js",
-      "__unresolved_2": "assets/Script/Menu.js",
-      "__unresolved_4": "assets/Script/Player.js",
-      "__unresolved_5": "assets/Script/Sumo.js",
-      "__unresolved_3": "assets/Script/MenuController.js",
-      "__unresolved_6": "assets/Script/multiplayer/Config.js",
-      "__unresolved_8": "assets/Script/multiplayer/SocketConnection.js",
-      "__unresolved_7": "assets/Script/multiplayer/MiloManager.js"
-    },
-    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1633425155537,
-    "isEntry": true,
-    "exposeAs": "cce:/internal/x/prerequisite-imports"
-  },
   "assets/Script/multiplayer/MiloManager.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
@@ -243,11 +226,91 @@
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js",
       "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
-      "__unresolved_1": "assets/Script/multiplayer/Config.js",
-      "__unresolved_2": "assets/Script/multiplayer/MiloManager.js",
       "colyseus.js": "node_modules/colyseus.js/dist/colyseus.proxy.js?cjs&original=.js"
     },
     "physicalLocation": "fs/0/assets/Script/multiplayer/SocketConnection.js",
-    "mTimestamp": 1633425155597
+    "mTimestamp": 1633427544694
+  },
+  "assets/Script/menuScene/MenuController.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/menuScene/MenuController.js",
+    "mTimestamp": 1633427690635
+  },
+  "assets/Script/menuScene/Menu.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/menuScene/Menu.js",
+    "mTimestamp": 1633427690655
+  },
+  "assets/Script/menuScene/Sumo.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/menuScene/Sumo.js",
+    "mTimestamp": 1633427690674
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "__unresolved_6": "assets/Script/menuScene/Menu.js",
+      "__unresolved_8": "assets/Script/menuScene/Sumo.js",
+      "__unresolved_7": "assets/Script/menuScene/MenuController.js",
+      "__unresolved_0": "assets/Script/gameScene/Bot.js",
+      "__unresolved_3": "assets/Script/gameScene/multiplayer/Config.js",
+      "__unresolved_1": "assets/Script/gameScene/GameUIController.js",
+      "__unresolved_4": "assets/Script/gameScene/multiplayer/MiloManager.js",
+      "__unresolved_2": "assets/Script/gameScene/Player.js",
+      "__unresolved_5": "assets/Script/gameScene/multiplayer/SocketConnection.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1633427709025,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "assets/Script/gameScene/Bot.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/gameScene/Bot.js",
+    "mTimestamp": 1633427709056
+  },
+  "assets/Script/gameScene/multiplayer/MiloManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/gameScene/multiplayer/MiloManager.js",
+    "mTimestamp": 1633427709078
+  },
+  "assets/Script/gameScene/multiplayer/Config.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/gameScene/multiplayer/Config.js",
+    "mTimestamp": 1633427709092
+  },
+  "assets/Script/gameScene/GameUIController.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/gameScene/GameUIController.js",
+    "mTimestamp": 1633427709140
+  },
+  "assets/Script/gameScene/multiplayer/SocketConnection.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "colyseus.js": "node_modules/colyseus.js/dist/colyseus.proxy.js?cjs&original=.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/gameScene/multiplayer/SocketConnection.js",
+    "mTimestamp": 1633427709169
+  },
+  "assets/Script/gameScene/Player.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/gameScene/Player.js",
+    "mTimestamp": 1633427709216
   }
 }
