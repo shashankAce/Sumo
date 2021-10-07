@@ -22,32 +22,6 @@
     "./mods/fs/0/assets/Script/GameUIController.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/cce/internal/x/cc.js": {
-      "__unresolved_0": "cce:/internal/x/cc-fu/base",
-      "__unresolved_1": "cce:/internal/x/cc-fu/gfx-webgl",
-      "__unresolved_2": "cce:/internal/x/cc-fu/gfx-webgl2",
-      "__unresolved_3": "cce:/internal/x/cc-fu/3d",
-      "__unresolved_4": "cce:/internal/x/cc-fu/2d",
-      "__unresolved_5": "cce:/internal/x/cc-fu/ui",
-      "__unresolved_6": "cce:/internal/x/cc-fu/particle",
-      "__unresolved_7": "cce:/internal/x/cc-fu/physics-ammo",
-      "__unresolved_8": "cce:/internal/x/cc-fu/physics-framework",
-      "__unresolved_9": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
-      "__unresolved_10": "cce:/internal/x/cc-fu/physics-2d-box2d",
-      "__unresolved_11": "cce:/internal/x/cc-fu/physics-2d-framework",
-      "__unresolved_12": "cce:/internal/x/cc-fu/intersection-2d",
-      "__unresolved_13": "cce:/internal/x/cc-fu/primitive",
-      "__unresolved_14": "cce:/internal/x/cc-fu/profiler",
-      "__unresolved_15": "cce:/internal/x/cc-fu/particle-2d",
-      "__unresolved_16": "cce:/internal/x/cc-fu/audio",
-      "__unresolved_17": "cce:/internal/x/cc-fu/video",
-      "__unresolved_18": "cce:/internal/x/cc-fu/webview",
-      "__unresolved_19": "cce:/internal/x/cc-fu/tween",
-      "__unresolved_20": "cce:/internal/x/cc-fu/terrain",
-      "__unresolved_21": "cce:/internal/x/cc-fu/tiled-map",
-      "__unresolved_22": "cce:/internal/x/cc-fu/spine",
-      "__unresolved_23": "cce:/internal/x/cc-fu/dragon-bones"
-    },
     "./mods/fs/0/assets/Script/socket/Connection.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
@@ -101,23 +75,18 @@
     "./mods/fs/0/assets/Script/menuScene/Sumo.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/fs/0/assets/Script/gameScene/Bot.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
-    },
     "./mods/fs/0/assets/Script/gameScene/multiplayer/MiloManager.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
     "./mods/fs/0/assets/Script/gameScene/multiplayer/Config.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/fs/0/assets/Script/gameScene/Player.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
-    },
     "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.proxy.js@63cjs&original=.js": {
-      "__unresolved_1": "./mods/cce/internal/ml/cjs-loader.js",
-      "__unresolved_0": "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.js",
-      "__unresolved_2": "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.js",
-      "__unresolved_3": "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.js"
+      "__unresolved_1": "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.js",
+      "__unresolved_3": "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.js",
+      "__unresolved_4": "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "__unresolved_2": "./mods/cce/internal/ml/cjs-loader.js"
     },
     "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.js": {
       "__unresolved_0": "./mods/cce/internal/ml/cjs-loader.js"
@@ -126,22 +95,58 @@
       "cc": "./mods/cce/internal/x/cc.js",
       "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
     },
-    "./mods/cce/internal/x/prerequisite-imports.js": {
-      "__unresolved_0": "./mods/fs/0/assets/Script/gameScene/Bot.js",
-      "__unresolved_1": "./mods/fs/0/assets/Script/gameScene/GameUIController.js",
-      "__unresolved_2": "./mods/fs/0/assets/Script/gameScene/Player.js",
-      "__unresolved_3": "./mods/fs/0/assets/Script/gameScene/multiplayer/Config.js",
-      "__unresolved_4": "./mods/fs/0/assets/Script/gameScene/multiplayer/MiloManager.js",
-      "__unresolved_6": "./mods/fs/0/assets/Script/menuScene/Menu.js",
-      "__unresolved_7": "./mods/fs/0/assets/Script/menuScene/MenuController.js",
-      "__unresolved_8": "./mods/fs/0/assets/Script/menuScene/Sumo.js",
-      "__unresolved_9": "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.proxy.js@63cjs&original=.js",
-      "__unresolved_5": "./mods/fs/0/assets/Script/gameScene/multiplayer/SocketConnection.js"
-    },
     "./mods/fs/0/assets/Script/gameScene/multiplayer/SocketConnection.js": {
       "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
-      "__unresolved_1": "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.proxy.js@63cjs&original=.js"
+      "__unresolved_1": "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.proxy.js@63cjs&original=.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js"
+    },
+    "./mods/cce/internal/x/cc.js": {
+      "__unresolved_0": "cce:/internal/x/cc-fu/base",
+      "__unresolved_1": "cce:/internal/x/cc-fu/gfx-webgl",
+      "__unresolved_2": "cce:/internal/x/cc-fu/gfx-webgl2",
+      "__unresolved_3": "cce:/internal/x/cc-fu/3d",
+      "__unresolved_4": "cce:/internal/x/cc-fu/2d",
+      "__unresolved_5": "cce:/internal/x/cc-fu/ui",
+      "__unresolved_6": "cce:/internal/x/cc-fu/particle",
+      "__unresolved_7": "cce:/internal/x/cc-fu/physics-ammo",
+      "__unresolved_8": "cce:/internal/x/cc-fu/physics-framework",
+      "__unresolved_9": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
+      "__unresolved_10": "cce:/internal/x/cc-fu/physics-2d-box2d",
+      "__unresolved_11": "cce:/internal/x/cc-fu/physics-2d-framework",
+      "__unresolved_12": "cce:/internal/x/cc-fu/intersection-2d",
+      "__unresolved_13": "cce:/internal/x/cc-fu/primitive",
+      "__unresolved_14": "cce:/internal/x/cc-fu/profiler",
+      "__unresolved_15": "cce:/internal/x/cc-fu/particle-2d",
+      "__unresolved_16": "cce:/internal/x/cc-fu/audio",
+      "__unresolved_17": "cce:/internal/x/cc-fu/video",
+      "__unresolved_18": "cce:/internal/x/cc-fu/webview",
+      "__unresolved_19": "cce:/internal/x/cc-fu/tween",
+      "__unresolved_20": "cce:/internal/x/cc-fu/terrain",
+      "__unresolved_21": "cce:/internal/x/cc-fu/tiled-map",
+      "__unresolved_22": "cce:/internal/x/cc-fu/spine",
+      "__unresolved_23": "cce:/internal/x/cc-fu/dragon-bones"
+    },
+    "./mods/fs/0/assets/Script/gameScene/Bot.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/Script/gameScene/Player.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/cce/internal/x/prerequisite-imports.js": {
+      "__unresolved_2": "./mods/fs/0/assets/Script/gameScene/Player.js",
+      "__unresolved_0": "./mods/fs/0/assets/Script/gameScene/Bot.js",
+      "__unresolved_1": "./mods/fs/0/assets/Script/gameScene/GameUIController.js",
+      "__unresolved_4": "./mods/fs/0/assets/Script/gameScene/multiplayer/Config.js",
+      "__unresolved_5": "./mods/fs/0/assets/Script/gameScene/multiplayer/MiloManager.js",
+      "__unresolved_6": "./mods/fs/0/assets/Script/gameScene/multiplayer/SocketConnection.js",
+      "__unresolved_7": "./mods/fs/0/assets/Script/menuScene/Menu.js",
+      "__unresolved_8": "./mods/fs/0/assets/Script/menuScene/MenuController.js",
+      "__unresolved_9": "./mods/fs/0/assets/Script/menuScene/Sumo.js",
+      "__unresolved_10": "./mods/fs/0/extensions/colyseus-sdk/runtime/colyseus.proxy.js@63cjs&original=.js",
+      "__unresolved_3": "./mods/fs/0/assets/Script/gameScene/camera.js"
+    },
+    "./mods/fs/0/assets/Script/gameScene/camera.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
     }
   }
 }

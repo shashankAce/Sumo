@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 7351.48449999094,
+    "mTimestamp": 6200.686950000003,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -389,11 +389,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 20530664.87959999,
+    "mTimestamp": 846297.4980810005,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/Bot.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts",
         "rewritten": "__unresolved_0",
         "loc": {
           "start": {
@@ -402,133 +402,147 @@
           },
           "end": {
             "line": 5,
-            "column": 90
+            "column": 119
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/GameUIController.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts",
         "rewritten": "__unresolved_1",
         "loc": {
           "start": {
             "line": 5,
-            "column": 106
+            "column": 135
           },
           "end": {
             "line": 5,
-            "column": 174
+            "column": 232
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/Player.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts",
         "rewritten": "__unresolved_2",
         "loc": {
           "start": {
             "line": 5,
-            "column": 190
+            "column": 248
           },
           "end": {
             "line": 5,
-            "column": 248
+            "column": 335
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/Config.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts",
         "rewritten": "__unresolved_3",
         "loc": {
           "start": {
             "line": 5,
-            "column": 264
+            "column": 351
           },
           "end": {
             "line": 5,
-            "column": 334
+            "column": 438
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts",
         "rewritten": "__unresolved_4",
         "loc": {
           "start": {
             "line": 5,
-            "column": 350
+            "column": 454
           },
           "end": {
             "line": 5,
-            "column": 425
+            "column": 553
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts",
         "rewritten": "__unresolved_5",
         "loc": {
           "start": {
             "line": 5,
-            "column": 441
+            "column": 569
           },
           "end": {
             "line": 5,
-            "column": 521
+            "column": 673
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/menuScene/Menu.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts",
         "rewritten": "__unresolved_6",
         "loc": {
           "start": {
             "line": 5,
-            "column": 537
+            "column": 689
           },
           "end": {
             "line": 5,
-            "column": 593
+            "column": 798
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/menuScene/MenuController.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts",
         "rewritten": "__unresolved_7",
         "loc": {
           "start": {
             "line": 5,
-            "column": 609
+            "column": 814
           },
           "end": {
             "line": 5,
-            "column": 675
+            "column": 899
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/assets/Script/menuScene/Sumo.ts",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts",
         "rewritten": "__unresolved_8",
         "loc": {
           "start": {
             "line": 5,
-            "column": 691
+            "column": 915
           },
           "end": {
             "line": 5,
-            "column": 747
+            "column": 1010
           }
         }
       },
       {
-        "value": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.js",
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts",
         "rewritten": "__unresolved_9",
         "loc": {
           "start": {
             "line": 5,
-            "column": 763
+            "column": 1026
           },
           "end": {
             "line": 5,
-            "column": 831
+            "column": 1111
+          }
+        }
+      },
+      {
+        "value": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1127
+          },
+          "end": {
+            "line": 5,
+            "column": 1224
           }
         }
       }
@@ -539,49 +553,53 @@
     "resolvedImports": [
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/Bot.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/GameUIController.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/Player.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/Config.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/menuScene/Menu.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/menuScene/MenuController.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/menuScene/Sumo.ts"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js"
       }
     ]
   },
-  "file:///C:/Users/shash/NewProject/assets/Script/Player.ts": {
-    "mTimestamp": 1632487612794.9568,
-    "chunkId": "assets/Script/Player.js",
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts": {
+    "mTimestamp": 1633596589191.5593,
+    "chunkId": "assets/Script/gameScene/Player.js",
     "imports": [
       {
         "value": "cc"
@@ -591,11 +609,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 114
+            "column": 135
           },
           "end": {
             "line": 2,
-            "column": 118
+            "column": 139
           }
         }
       }
@@ -614,1388 +632,8 @@
       }
     ]
   },
-  "file:///C:/Users/shash/NewProject/assets/Script/Bot.ts": {
-    "mTimestamp": 1632473119285.7983,
-    "chunkId": "assets/Script/Bot.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///C:/Users/shash/NewProject/assets/Script/GameScene.ts": {
-    "mTimestamp": 1632473724579.7444,
-    "chunkId": "assets/Script/GameScene.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///C:/Users/shash/NewProject/assets/Script/Menu.ts": {
-    "mTimestamp": 1632487574932.0962,
-    "chunkId": "assets/Script/Menu.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 49
-          },
-          "end": {
-            "line": 2,
-            "column": 53
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///C:/Users/shash/NewProject/assets/Script/MenuController.ts": {
-    "mTimestamp": 1632600370214.6294,
-    "chunkId": "assets/Script/MenuController.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 144
-          },
-          "end": {
-            "line": 2,
-            "column": 148
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///C:/Users/shash/NewProject/assets/Script/Sumo.ts": {
-    "mTimestamp": 1632599600979.8884,
-    "chunkId": "assets/Script/Sumo.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1633411616843,
-    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
-    "imports": [],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": []
-  },
-  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/MenuController.ts": {
-    "mTimestamp": 1632835054963.1292,
-    "chunkId": "assets/Script/MenuController.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 144
-          },
-          "end": {
-            "line": 2,
-            "column": 148
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Player.ts": {
-    "mTimestamp": 1632845831725.613,
-    "chunkId": "assets/Script/Player.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 57
-          },
-          "end": {
-            "line": 2,
-            "column": 61
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Menu.ts": {
-    "mTimestamp": 1632724569528.3171,
-    "chunkId": "assets/Script/Menu.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 49
-          },
-          "end": {
-            "line": 2,
-            "column": 53
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Bot.ts": {
-    "mTimestamp": 1632724569528.0146,
-    "chunkId": "assets/Script/Bot.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/Sumo.ts": {
-    "mTimestamp": 1632748555761.2754,
-    "chunkId": "assets/Script/Sumo.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 75
-          },
-          "end": {
-            "line": 2,
-            "column": 79
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/GameUIController.ts": {
-    "mTimestamp": 1632846308163.1895,
-    "chunkId": "assets/Script/GameUIController.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 102
-          },
-          "end": {
-            "line": 2,
-            "column": 106
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/GameUIController.ts": {
-    "mTimestamp": 1632907541047.0664,
-    "chunkId": "assets/Script/GameUIController.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 102
-          },
-          "end": {
-            "line": 2,
-            "column": 106
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/MenuController.ts": {
-    "mTimestamp": 1632898026595.9229,
-    "chunkId": "assets/Script/MenuController.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 144
-          },
-          "end": {
-            "line": 2,
-            "column": 148
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/Menu.ts": {
-    "mTimestamp": 1632487574932.0962,
-    "chunkId": "assets/Script/Menu.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 49
-          },
-          "end": {
-            "line": 2,
-            "column": 53
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/Player.ts": {
-    "mTimestamp": 1633412479865.069,
-    "chunkId": "assets/Script/Player.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 57
-          },
-          "end": {
-            "line": 2,
-            "column": 61
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/Sumo.ts": {
-    "mTimestamp": 1632898026596.9226,
-    "chunkId": "assets/Script/Sumo.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 75
-          },
-          "end": {
-            "line": 2,
-            "column": 79
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/Bot.ts": {
-    "mTimestamp": 1632473119285.7983,
-    "chunkId": "assets/Script/Bot.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/socket/Connection.ts": {
-    "mTimestamp": 1633412144037.2244,
-    "chunkId": "assets/Script/socket/Connection.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts": {
-    "mTimestamp": 1633427193758.4597,
-    "chunkId": "assets/Script/multiplayer/SocketConnection.js",
-    "imports": [
-      {
-        "value": "cce:/internal/code-quality/cr.mjs",
-        "rewritten": "__unresolved_0"
-      },
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      },
-      {
-        "value": "colyseus.js",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 29
-          },
-          "end": {
-            "line": 3,
-            "column": 42
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/code-quality/cr.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/node_modules/colyseus.js/dist/colyseus.mjs?cjs=&original=.js"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/multiplayer/mx-milo-manager.mjs?cjs=&original=.js": {
-    "mTimestamp": 1633425020835.546,
-    "chunkId": "assets/Script/multiplayer/mx-milo-manager.proxy.js?cjs&original=.js",
-    "imports": [
-      {
-        "value": "cce:/internal/code-quality/cr.mjs",
-        "rewritten": "__unresolved_0"
-      },
-      {
-        "value": "./mx-milo-manager.js",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 36
-          },
-          "end": {
-            "line": 2,
-            "column": 58
-          }
-        }
-      },
-      {
-        "value": "cce:/internal/ml/cjs-loader.mjs",
-        "rewritten": "__unresolved_2",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 19
-          },
-          "end": {
-            "line": 3,
-            "column": 52
-          }
-        }
-      },
-      {
-        "value": "./mx-milo-manager.js",
-        "rewritten": "__unresolved_3",
-        "loc": {
-          "start": {
-            "line": 8,
-            "column": 14
-          },
-          "end": {
-            "line": 8,
-            "column": 36
-          }
-        }
-      },
-      {
-        "value": "./mx-milo-manager.js",
-        "rewritten": "__unresolved_4",
-        "loc": {
-          "start": {
-            "line": 9,
-            "column": 29
-          },
-          "end": {
-            "line": 9,
-            "column": 51
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/code-quality/cr.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/mx-milo-manager.js"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/ml/cjs-loader.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/mx-milo-manager.js"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/mx-milo-manager.js"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/multiplayer/mx-multiplayer.mjs?cjs=&original=.js": {
-    "mTimestamp": 1633414735260.2898,
-    "chunkId": "assets/Script/multiplayer/mx-multiplayer.proxy.js?cjs&original=.js",
-    "imports": [
-      {
-        "value": "cce:/internal/code-quality/cr.mjs",
-        "rewritten": "__unresolved_0"
-      },
-      {
-        "value": "./mx-multiplayer.js",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 36
-          },
-          "end": {
-            "line": 2,
-            "column": 57
-          }
-        }
-      },
-      {
-        "value": "cce:/internal/ml/cjs-loader.mjs",
-        "rewritten": "__unresolved_2",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 19
-          },
-          "end": {
-            "line": 3,
-            "column": 52
-          }
-        }
-      },
-      {
-        "value": "./mx-multiplayer.js",
-        "rewritten": "__unresolved_3",
-        "loc": {
-          "start": {
-            "line": 8,
-            "column": 14
-          },
-          "end": {
-            "line": 8,
-            "column": 35
-          }
-        }
-      },
-      {
-        "value": "./mx-multiplayer.js",
-        "rewritten": "__unresolved_4",
-        "loc": {
-          "start": {
-            "line": 9,
-            "column": 29
-          },
-          "end": {
-            "line": 9,
-            "column": 50
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/code-quality/cr.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/mx-multiplayer.js"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/ml/cjs-loader.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/mx-multiplayer.js"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/mx-multiplayer.js"
-      }
-    ]
-  },
-  "cce:/internal/ml/cjs-loader.mjs": {
-    "mTimestamp": 1633411616843,
-    "chunkId": "quick-pack:/cce/internal/ml/cjs-loader.js",
-    "imports": [],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": []
-  },
-  "file:///D:/Office/Sumo/assets/Script/multiplayer/mx-milo-manager.js": null,
-  "file:///D:/Office/Sumo/assets/Script/multiplayer/mx-multiplayer.js": {
-    "mTimestamp": 1633414735260.2898,
-    "chunkId": "assets/Script/multiplayer/mx-multiplayer.js",
-    "imports": [
-      {
-        "value": "cce:/internal/ml/cjs-loader.mjs",
-        "rewritten": "__unresolved_0"
-      }
-    ],
-    "modLoMetadata": {
-      "type": "cjs",
-      "cjs": {
-        "exports": [],
-        "reexports": []
-      }
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/ml/cjs-loader.mjs"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/node_modules/colyseus.js/dist/colyseus.mjs?cjs=&original=.js": {
-    "mTimestamp": 1626728506000,
-    "chunkId": "node_modules/colyseus.js/dist/colyseus.proxy.js?cjs&original=.js",
-    "imports": [
-      {
-        "value": "./colyseus.js",
-        "rewritten": "__unresolved_0",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 36
-          },
-          "end": {
-            "line": 2,
-            "column": 51
-          }
-        }
-      },
-      {
-        "value": "cce:/internal/ml/cjs-loader.mjs",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 19
-          },
-          "end": {
-            "line": 3,
-            "column": 52
-          }
-        }
-      },
-      {
-        "value": "./colyseus.js",
-        "rewritten": "__unresolved_2",
-        "loc": {
-          "start": {
-            "line": 8,
-            "column": 14
-          },
-          "end": {
-            "line": 8,
-            "column": 29
-          }
-        }
-      },
-      {
-        "value": "./colyseus.js",
-        "rewritten": "__unresolved_3",
-        "loc": {
-          "start": {
-            "line": 9,
-            "column": 29
-          },
-          "end": {
-            "line": 9,
-            "column": 44
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/node_modules/colyseus.js/dist/colyseus.js"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/ml/cjs-loader.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/node_modules/colyseus.js/dist/colyseus.js"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/node_modules/colyseus.js/dist/colyseus.js"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/node_modules/colyseus.js/dist/colyseus.js": {
-    "mTimestamp": 1626728506000,
-    "chunkId": "node_modules/colyseus.js/dist/colyseus.js",
-    "imports": [
-      {
-        "value": "cce:/internal/ml/cjs-loader.mjs",
-        "rewritten": "__unresolved_0"
-      }
-    ],
-    "modLoMetadata": {
-      "type": "cjs",
-      "cjs": {
-        "exports": [
-          "Protocol",
-          "ErrorCode",
-          "OPERATION",
-          "ArraySchema",
-          "CollectionSchema",
-          "Context",
-          "MapSchema",
-          "Reflection",
-          "ReflectionField",
-          "ReflectionType",
-          "Schema",
-          "SchemaDefinition",
-          "SetSchema",
-          "decode",
-          "defineTypes",
-          "deprecated",
-          "dumpChanges",
-          "encode",
-          "filter",
-          "filterChildren",
-          "hasFilter",
-          "registerType",
-          "type",
-          "__esModule",
-          "Platform",
-          "Auth",
-          "Client",
-          "Room",
-          "SchemaSerializer",
-          "registerSerializer"
-        ],
-        "reexports": []
-      }
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/ml/cjs-loader.mjs"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/multiplayer/Config.mjs?cjs=&original=.js": {
-    "mTimestamp": 1633424871222.6892,
-    "chunkId": "assets/Script/multiplayer/Config.proxy.js?cjs&original=.js",
-    "imports": [
-      {
-        "value": "cce:/internal/code-quality/cr.mjs",
-        "rewritten": "__unresolved_0"
-      },
-      {
-        "value": "./Config.js",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 36
-          },
-          "end": {
-            "line": 2,
-            "column": 49
-          }
-        }
-      },
-      {
-        "value": "cce:/internal/ml/cjs-loader.mjs",
-        "rewritten": "__unresolved_2",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 19
-          },
-          "end": {
-            "line": 3,
-            "column": 52
-          }
-        }
-      },
-      {
-        "value": "./Config.js",
-        "rewritten": "__unresolved_3",
-        "loc": {
-          "start": {
-            "line": 8,
-            "column": 14
-          },
-          "end": {
-            "line": 8,
-            "column": 27
-          }
-        }
-      },
-      {
-        "value": "./Config.js",
-        "rewritten": "__unresolved_4",
-        "loc": {
-          "start": {
-            "line": 9,
-            "column": 29
-          },
-          "end": {
-            "line": 9,
-            "column": 42
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/code-quality/cr.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/Config.js"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/ml/cjs-loader.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/Config.js"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///D:/Office/Sumo/assets/Script/multiplayer/Config.js"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/multiplayer/Config.js": null,
-  "file:///D:/Office/Sumo/assets/Script/multiplayer/Config.ts": {
-    "mTimestamp": 1633424973218.4583,
-    "chunkId": "assets/Script/multiplayer/Config.js",
-    "imports": [
-      {
-        "value": "cc"
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/multiplayer/MiloManager.ts": {
-    "mTimestamp": 1633425135517.2373,
-    "chunkId": "assets/Script/multiplayer/MiloManager.js",
-    "imports": [
-      {
-        "value": "cc"
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/menuScene/MenuController.ts": {
-    "mTimestamp": 1632898026595.9229,
-    "chunkId": "assets/Script/menuScene/MenuController.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 144
-          },
-          "end": {
-            "line": 2,
-            "column": 148
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/menuScene/Menu.ts": {
-    "mTimestamp": 1632487574932.0962,
-    "chunkId": "assets/Script/menuScene/Menu.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 49
-          },
-          "end": {
-            "line": 2,
-            "column": 53
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/menuScene/Sumo.ts": {
-    "mTimestamp": 1632898026596.9226,
-    "chunkId": "assets/Script/menuScene/Sumo.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 75
-          },
-          "end": {
-            "line": 2,
-            "column": 79
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/gameScene/Bot.ts": {
-    "mTimestamp": 1632473119285.7983,
-    "chunkId": "assets/Script/gameScene/Bot.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/Config.ts": {
-    "mTimestamp": 1633424973218.4583,
-    "chunkId": "assets/Script/gameScene/multiplayer/Config.js",
-    "imports": [
-      {
-        "value": "cc"
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/gameScene/GameUIController.ts": {
-    "mTimestamp": 1633431843813.7676,
-    "chunkId": "assets/Script/gameScene/GameUIController.js",
-    "imports": [
-      {
-        "value": "cce:/internal/code-quality/cr.mjs",
-        "rewritten": "__unresolved_0"
-      },
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 102
-          },
-          "end": {
-            "line": 2,
-            "column": 106
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/code-quality/cr.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts": {
-    "mTimestamp": 1633425135517.2373,
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts": {
+    "mTimestamp": 1633581900459.777,
     "chunkId": "assets/Script/gameScene/multiplayer/MiloManager.js",
     "imports": [
       {
@@ -2012,43 +650,8 @@
       }
     ]
   },
-  "file:///D:/Office/Sumo/assets/Script/gameScene/Player.ts": {
-    "mTimestamp": 1633412479865.069,
-    "chunkId": "assets/Script/gameScene/Player.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 57
-          },
-          "end": {
-            "line": 2,
-            "column": 61
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///D:/Office/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts": {
-    "mTimestamp": 1633432129693.9473,
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts": {
+    "mTimestamp": 1633581900459.9932,
     "chunkId": "assets/Script/gameScene/multiplayer/SocketConnection.js",
     "imports": [
       {
@@ -2104,17 +707,222 @@
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js"
       }
     ]
   },
-  "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js": {
-    "mTimestamp": 1623185760000,
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts": {
+    "mTimestamp": 1633581900459.5444,
+    "chunkId": "assets/Script/gameScene/multiplayer/Config.js",
+    "imports": [
+      {
+        "value": "cc"
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts": {
+    "mTimestamp": 1633581900460.967,
+    "chunkId": "assets/Script/menuScene/MenuController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 144
+          },
+          "end": {
+            "line": 2,
+            "column": 148
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts": {
+    "mTimestamp": 1633581900461.5625,
+    "chunkId": "assets/Script/menuScene/Sumo.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 75
+          },
+          "end": {
+            "line": 2,
+            "column": 79
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts": {
+    "mTimestamp": 1633581900456.905,
+    "chunkId": "assets/Script/gameScene/GameUIController.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 102
+          },
+          "end": {
+            "line": 2,
+            "column": 106
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts": {
+    "mTimestamp": 1633581900460.3472,
+    "chunkId": "assets/Script/menuScene/Menu.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 49
+          },
+          "end": {
+            "line": 2,
+            "column": 53
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts": {
+    "mTimestamp": 1633596451225.4817,
+    "chunkId": "assets/Script/gameScene/Bot.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 85
+          },
+          "end": {
+            "line": 2,
+            "column": 89
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js": {
+    "mTimestamp": 1633581900466.0066,
     "chunkId": "extensions/colyseus-sdk/runtime/colyseus.proxy.js?cjs&original=.js",
     "imports": [
       {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
         "value": "./colyseus.js",
-        "rewritten": "__unresolved_0",
+        "rewritten": "__unresolved_1",
         "loc": {
           "start": {
             "line": 2,
@@ -2128,7 +936,7 @@
       },
       {
         "value": "cce:/internal/ml/cjs-loader.mjs",
-        "rewritten": "__unresolved_1",
+        "rewritten": "__unresolved_2",
         "loc": {
           "start": {
             "line": 3,
@@ -2142,7 +950,7 @@
       },
       {
         "value": "./colyseus.js",
-        "rewritten": "__unresolved_2",
+        "rewritten": "__unresolved_3",
         "loc": {
           "start": {
             "line": 8,
@@ -2156,7 +964,7 @@
       },
       {
         "value": "./colyseus.js",
-        "rewritten": "__unresolved_3",
+        "rewritten": "__unresolved_4",
         "loc": {
           "start": {
             "line": 9,
@@ -2175,7 +983,11 @@
     "resolvedImports": [
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.js"
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js"
       },
       {
         "isExternal": false,
@@ -2183,16 +995,34 @@
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.js"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js"
       },
       {
         "isExternal": false,
-        "url": "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.js"
+        "url": "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js"
       }
     ]
   },
-  "file:///D:/Office/Sumo/extensions/colyseus-sdk/runtime/colyseus.js": {
-    "mTimestamp": 1623185760000,
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1633595920512,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "cce:/internal/ml/cjs-loader.mjs": {
+    "mTimestamp": 1633595920512,
+    "chunkId": "quick-pack:/cce/internal/ml/cjs-loader.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js": {
+    "mTimestamp": 1633581900466.0066,
     "chunkId": "extensions/colyseus-sdk/runtime/colyseus.js",
     "imports": [
       {
@@ -2242,6 +1072,41 @@
       {
         "isExternal": false,
         "url": "cce:/internal/ml/cjs-loader.mjs"
+      }
+    ]
+  },
+  "file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts": {
+    "mTimestamp": 1633596751093.2407,
+    "chunkId": "assets/Script/gameScene/camera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 62
+          },
+          "end": {
+            "line": 2,
+            "column": 66
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
       }
     ]
   }

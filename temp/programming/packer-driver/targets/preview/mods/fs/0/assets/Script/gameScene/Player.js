@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Vec3, Node, macro, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, CELL_TIME, SPEED, Player;
+  var _cclegacy, _decorator, Component, Vec3, Node, macro, SkeletalAnimationComponent, BoxCollider, RigidBodyComponent, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, CELL_TIME, SPEED, BUMPVALUE, STATE, Player;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -25,11 +25,14 @@ System.register(["cc"], function (_export, _context) {
       Vec3 = _cc.Vec3;
       Node = _cc.Node;
       macro = _cc.macro;
+      SkeletalAnimationComponent = _cc.SkeletalAnimationComponent;
+      BoxCollider = _cc.BoxCollider;
+      RigidBodyComponent = _cc.RigidBodyComponent;
     }],
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "3cbf7Z5+/NHHpi/kPsJMdy0", "Player", undefined);
+      _cclegacy._RF.push({}, "a3addpkf1lOCoVufXlKk5xR", "Player", undefined);
 
       ccclass = _decorator.ccclass;
       property = _decorator.property;
@@ -47,6 +50,12 @@ System.register(["cc"], function (_export, _context) {
 
       CELL_TIME = 0.016;
       SPEED = 4;
+      BUMPVALUE = 4;
+      STATE = {
+        IDLE: 0,
+        WALK: 1,
+        BUMP: 2
+      };
 
       _export("Player", Player = (_dec = ccclass('Player'), _dec2 = property({
         type: Node
@@ -64,16 +73,60 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(_assertThisInitialized(_this), "playerCamera", _descriptor, _assertThisInitialized(_this));
 
+          _defineProperty(_assertThisInitialized(_this), "_currentPlayerPosition", Vec3.ZERO);
+
           _defineProperty(_assertThisInitialized(_this), "_vector", Vec3.ZERO);
 
           _defineProperty(_assertThisInitialized(_this), "_vectorAngle", Vec3.ZERO);
 
           _defineProperty(_assertThisInitialized(_this), "_now_time", 0);
 
+          _defineProperty(_assertThisInitialized(_this), "_skeletal", void 0);
+
+          _defineProperty(_assertThisInitialized(_this), "_currentState", STATE.IDLE);
+
           return _this;
         }
 
         var _proto = Player.prototype;
+
+        _proto.start = function start() {
+          this._skeletal = this.node.getComponent(SkeletalAnimationComponent);
+
+          this._skeletal.play('Armature|idle');
+
+          var collider = this.node.getComponent(BoxCollider);
+          collider.on('onCollisionEnter', this._onCollisionEnter, this);
+        };
+
+        _proto._onCollisionEnter = function _onCollisionEnter(event) {
+          var _this2 = this;
+
+          var otherCollider = event.otherCollider;
+
+          if (otherCollider.node.name === 'platform') {
+            return;
+          }
+
+          console.log("COLLIDED ------- " + this._currentPlayerPosition);
+          console.log("COLLIDED ------- " + this._vector.x + "    " + this._vector.y);
+          this._currentState = STATE.BUMP;
+          this.getComponent(RigidBodyComponent).applyImpulse(new Vec3(this._vector.x * BUMPVALUE * -1, 0, this._vector.y * BUMPVALUE));
+          setTimeout(function () {
+            _this2.getComponent(RigidBodyComponent).clearVelocity();
+
+            _this2._currentState = STATE.IDLE;
+          }, 1000); // const otherRigidBody = otherCollider.node.getComponent(RigidBody)!;
+          // otherRigidBody.useGravity = true;
+          // otherRigidBody.applyForce(new Vec3(0, 3000, -1500), new Vec3(0, 0.5, 0));
+          // const collider = event.selfCollider;
+          // collider.addMask(Constants.CarGroup.NORMAL);
+          // const rigidBody = this.node.getComponent(RigidBody)!;
+          // rigidBody.useGravity = true;
+          // this._runState = RunState.CRASH;
+          // AudioManager.playSound(Constants.AudioSource.CRASH);
+          // CustomEventListener.dispatchEvent(EventName.GAME_OVER);
+        };
 
         _proto.touchCallBack = function touchCallBack(vector, angle) {
           Vec3.rotateZ(vector, vector, Vec3.ZERO, this.playerCamera.eulerAngles.y * macro.RAD);
@@ -89,9 +142,24 @@ System.register(["cc"], function (_export, _context) {
         };
 
         _proto.fix_update = function fix_update(dt) {
+          if (this._currentState == STATE.BUMP) return;
+
           if (this._vector.lengthSqr() > 0) {
+            if (this._currentState == STATE.IDLE) {
+              this._currentState = STATE.WALK;
+
+              this._skeletal.play('Armature|walk');
+            }
+
             this.node.setPosition(this.node.position.add3f(this._vector.x * SPEED * dt, 0, -this._vector.y * SPEED * dt));
+            this._currentPlayerPosition = new Vec3(this._vector.x, 0, this._vector.y);
             this.playerCamera.setPosition(this.playerCamera.position.add3f(this._vector.x * SPEED * dt, 0, 0));
+          } else {
+            if (this._currentState == STATE.WALK) {
+              this._currentState = STATE.IDLE;
+
+              this._skeletal.play('Armature|idle');
+            }
           }
 
           if (this._vectorAngle.lengthSqr() > 0) {
@@ -100,7 +168,7 @@ System.register(["cc"], function (_export, _context) {
         };
 
         _proto.update = function update(deltaTime) {
-          this._now_time += deltaTime;
+          this._now_time += deltaTime; // this.fix_update(CELL_TIME);
 
           while (this._now_time >= CELL_TIME) {
             this.fix_update(CELL_TIME);

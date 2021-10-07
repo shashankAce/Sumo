@@ -73,7 +73,7 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
         touchMove(touch) {
           /*  
           ***** Do not delete this commented code
-            let loc = touch.getUILocation();
+           let loc = touch.getUILocation();
           let pos = this.node.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(loc.x, loc.y));
           let angle = Math.atan2(pos.y, pos.x);
           this.touchEventCallBack.forEach(c => c.emit([pos, angle * macro.DEG])); 

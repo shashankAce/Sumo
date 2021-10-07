@@ -1,23 +1,23 @@
-debug: Tue, 05 Oct 2021 05:27:03 GMT
-debug: Project: D:\Office\Sumo
+debug: Thu, 07 Oct 2021 08:38:46 GMT
+debug: Project: /Users/shashankchaurasia/CocosWorkspace/Sumo
 debug: Targets: editor,preview
 debug: Incremental file seems great.
-debug: Engine path: C:\CocosDashboard_1.0.14\resources\.editors\Creator\3.3.1\resources\resources\3d\engine
+debug: Engine path: /Applications/CocosCreator/Creator/3.3.1/CocosCreator.app/Contents/Resources/resources/3d/engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 2.202400028705597ms.
+debug: Loading cache costs 2.803991001099348ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 1.8140999674797058ms.
+debug: Loading cache costs 2.6063409987837076ms.
 debug: Sync engine features: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,physics-ammo,physics-2d-box2d,intersection-2d,primitive,profiler,particle-2d,audio,video,webview,tween,terrain,tiled-map,spine,dragon-bones
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 18.738300025463104ms.
+debug: Fetch asset-db cost: 10.792518999427557ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 6
+Number of accumulated asset changes: 10
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:30:06 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:07 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:30:07 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:06 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -40,17 +40,26 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:30:13 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:14 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:30:15 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:11 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/Office/Sumo/assets/Script/Bot.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/Bot.ts.
-debug: Resolve file:///D:/Office/Sumo/assets/Script/Menu.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/Menu.ts.
-debug: Resolve file:///D:/Office/Sumo/assets/Script/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/GameUIController.ts.
-debug: Resolve file:///D:/Office/Sumo/assets/Script/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/MenuController.ts.
-debug: Resolve file:///D:/Office/Sumo/assets/Script/Player.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/Player.ts.
-debug: Resolve file:///D:/Office/Sumo/assets/Script/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/Sumo.ts.
-debug: Target(editor) ends with cost 141.2888000011444ms.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Oct 07 2021 11:36:02 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:08:40 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Detected change: cce:/internal/ml/cjs-loader.mjs. Last mtime: Thu Oct 07 2021 11:36:02 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:08:40 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/ml/cjs-loader.mjs
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Target(editor) ends with cost 185.04186500050128ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:30:06 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:07 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:30:07 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:06 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -76,12 +85,341 @@ debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:30:13 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:14 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:30:17 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:11 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/Office/Sumo/assets/Script/Bot.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/Bot.ts.
-debug: Resolve file:///D:/Office/Sumo/assets/Script/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/GameUIController.ts.
-debug: Resolve file:///D:/Office/Sumo/assets/Script/Menu.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/Menu.ts.
-debug: Resolve file:///D:/Office/Sumo/assets/Script/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/MenuController.ts.
-debug: Resolve file:///D:/Office/Sumo/assets/Script/Player.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/Player.ts.
-debug: Resolve file:///D:/Office/Sumo/assets/Script/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///D:/Office/Sumo/assets/Script/Sumo.ts.
-debug: Target(preview) ends with cost 103.44480001926422ms.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Oct 07 2021 11:36:02 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:08:40 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Detected change: cce:/internal/ml/cjs-loader.mjs. Last mtime: Thu Oct 07 2021 11:36:02 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:08:40 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/ml/cjs-loader.mjs
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Target(preview) ends with cost 154.96102300100029ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:30:11 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:35:58 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Target(editor) ends with cost 139.09131399914622ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:30:11 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:35:58 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Target(preview) ends with cost 119.4968379996717ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:35:58 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:36:23 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Detected change: file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts. Last mtime: Thu Oct 07 2021 10:15:00 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:15:03 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 806.0805280003697ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:35:58 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:36:24 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Detected change: file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts. Last mtime: Thu Oct 07 2021 10:15:00 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:15:03 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 557.4683550000191ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:36:23 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:38:55 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Detected change: file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts. Last mtime: Thu Oct 07 2021 14:15:03 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:17:31 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 293.9883710015565ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:36:24 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:38:55 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Detected change: file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts. Last mtime: Thu Oct 07 2021 14:15:03 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:17:31 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 407.7819929998368ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:38:55 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:41:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Target(editor) ends with cost 56.687928998842835ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:38:55 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:41:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Target(preview) ends with cost 111.67148900032043ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:41:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:41:08 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Detected change: file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts. Last mtime: Thu Oct 07 2021 10:15:00 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:19:49 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 292.47825099900365ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:41:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:41:08 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Detected change: file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts. Last mtime: Thu Oct 07 2021 10:15:00 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:19:49 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 463.4236180000007ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:41:08 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:42:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 168.39730899967253ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:41:08 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:42:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 292.8603080008179ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:42:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:43:34 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Detected change: file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts. Last mtime: Thu Oct 07 2021 14:20:40 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:22:09 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 199.54197400063276ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:42:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:43:34 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Detected change: file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts. Last mtime: Thu Oct 07 2021 14:20:40 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:22:09 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 242.81762799993157ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:43:34 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:44:06 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Detected change: file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts. Last mtime: Thu Oct 07 2021 14:22:09 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:22:31 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 315.6851829998195ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:43:34 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:44:06 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.
+debug: Detected change: file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts. Last mtime: Thu Oct 07 2021 14:22:09 GMT+0530 (India Standard Time), Current mtime: Thu Oct 07 2021 14:22:31 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts
+debug: Create cjs interop url for 'file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js'
+debug: Resolve file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.js from cce:/internal/x/prerequisite-imports as file:///Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/colyseus.mjs?cjs=&original=.js.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 304.57539100013673ms.

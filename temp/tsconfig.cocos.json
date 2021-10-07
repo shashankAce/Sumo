@@ -11,13 +11,13 @@
     ],
     "paths": {
       "db://internal/*": [
-        "C:\\CocosDashboard_1.0.14\\resources\\.editors\\Creator\\3.3.1\\resources\\resources\\3d\\engine\\editor\\assets\\*"
+        "/Applications/CocosCreator/Creator/3.3.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "D:\\Office\\Sumo\\assets\\*"
+        "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/*"
       ],
       "db://colyseus-sdk/*": [
-        "D:\\Office\\Sumo\\extensions\\colyseus-sdk\\runtime\\*"
+        "/Users/shashankchaurasia/CocosWorkspace/Sumo/extensions/colyseus-sdk/runtime/*"
       ]
     },
     "experimentalDecorators": true,

@@ -1,519 +1,113 @@
-2021-10-05 10:56:59-log: [Package] menu@1.0.0 enable
-2021-10-05 10:56:59-log: [Package] profile@1.0.0 enable
-2021-10-05 10:56:59-log: [Package] messages@1.0.0 enable
-2021-10-05 10:56:59-log: [Package] program@1.0.0 enable
-2021-10-05 10:56:59-log: [Package] device@1.0.1 enable
-2021-10-05 10:56:59-log: [Package] ui-kit@1.0.1 enable
-2021-10-05 10:56:59-log: [Package] tester@1.0.0 enable
-2021-10-05 10:56:59-log: [Package] preferences@1.0.0 enable
-2021-10-05 10:57:00-log: Setup mods mgr.: 343.588ms
-2021-10-05 10:57:00-log: [Package] engine@1.0.5 enable
-2021-10-05 10:57:03-log: [Package] programming@1.0.0 enable
-2021-10-05 10:57:04-log: [Package] asset-db@1.0.0 enable
-2021-10-05 10:57:04-log: [Package] console@1.0.0 enable
-2021-10-05 10:57:04-log: [Package] scene@1.0.0 enable
-2021-10-05 10:57:04-log: [Package] project@1.0.1 enable
-2021-10-05 10:57:04-log: [Package] about@1.0.0 enable
-2021-10-05 10:57:04-log: [Package] server@1.0.0 enable
-2021-10-05 10:57:04-log: [Package] utils@1.0.0 enable
-2021-10-05 10:57:04-log: [Package] assets@1.0.0 enable
-2021-10-05 10:57:04-log: [Package] inspector@1.0.0 enable
-2021-10-05 10:57:04-log: [Package] hierarchy@1.0.0 enable
-2021-10-05 10:57:06-log: [Package] preview@1.0.1 enable
-2021-10-05 10:57:06-log: [Package] animator@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] builder@1.2.9 enable
-2021-10-05 10:57:07-log: [Package] node-library@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] shortcuts@1.0.1 enable
-2021-10-05 10:57:07-log: [Package] package-asset@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] reference-image@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] channel-upload-tools@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] runtime-dev-tools@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] alipay-mini-game@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] android@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] baidu-mini-game@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] bytedance-mini-game@1.0.1 enable
-2021-10-05 10:57:07-log: [Package] huawei-agc@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] ios@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] ios-app-clip@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] mac@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] native@1.0.0 enable
-2021-10-05 10:57:07-log: [Package] ohos@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] web-desktop@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] web-mobile@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] wechatgame@1.0.1 enable
-2021-10-05 10:57:08-log: [Package] windows@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] xiaomi-quick-game@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] cocos-play@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] huawei-quick-game@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] link-sure@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] oppo-mini-game@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] qtt@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] vivo-mini-game@1.0.0 enable
-2021-10-05 10:57:08-log: [Package] cocos-service@3.0.1 enable
-2021-10-05 10:57:08-log: [Package] importer@1.0.0 enable
-2021-10-05 10:57:09-log: [Package] extension@3.0.9 enable
-2021-10-05 10:57:09-log: [Package] im-plugin@3.0.6 enable
-2021-10-05 10:57:09-log: [Package] lightmap@1.0.3 enable
-2021-10-05 10:57:11-warn: Browserslist: caniuse-lite is outdated. Please run:
+2021-10-07 14:08:42-log: [Package] menu@1.0.0 enable
+2021-10-07 14:08:42-log: [Package] profile@1.0.0 enable
+2021-10-07 14:08:42-log: [Package] messages@1.0.0 enable
+2021-10-07 14:08:43-log: [Package] program@1.0.0 enable
+2021-10-07 14:08:43-log: [Package] device@1.0.1 enable
+2021-10-07 14:08:43-log: [Package] ui-kit@1.0.1 enable
+2021-10-07 14:08:43-log: [Package] tester@1.0.0 enable
+2021-10-07 14:08:43-log: [Package] preferences@1.0.0 enable
+2021-10-07 14:08:43-log: Setup mods mgr.: 282.134ms
+2021-10-07 14:08:43-log: [Package] engine@1.0.5 enable
+2021-10-07 14:08:46-log: [Package] programming@1.0.0 enable
+2021-10-07 14:08:46-log: [Package] asset-db@1.0.0 enable
+2021-10-07 14:08:46-log: [Package] console@1.0.0 enable
+2021-10-07 14:08:46-log: [Package] scene@1.0.0 enable
+2021-10-07 14:08:46-log: [Package] project@1.0.1 enable
+2021-10-07 14:08:46-log: [Package] about@1.0.0 enable
+2021-10-07 14:08:47-log: [Package] server@1.0.0 enable
+2021-10-07 14:08:47-log: [Package] utils@1.0.0 enable
+2021-10-07 14:08:47-log: [Package] assets@1.0.0 enable
+2021-10-07 14:08:47-log: [Package] inspector@1.0.0 enable
+2021-10-07 14:08:47-log: [Package] hierarchy@1.0.0 enable
+2021-10-07 14:08:48-log: [Package] preview@1.0.1 enable
+2021-10-07 14:08:48-log: [Package] animator@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] builder@1.2.9 enable
+2021-10-07 14:08:49-log: [Package] node-library@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] shortcuts@1.0.1 enable
+2021-10-07 14:08:49-log: [Package] package-asset@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] reference-image@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] channel-upload-tools@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] runtime-dev-tools@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] alipay-mini-game@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] android@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] baidu-mini-game@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] bytedance-mini-game@1.0.1 enable
+2021-10-07 14:08:49-log: [Package] huawei-agc@1.0.0 enable
+2021-10-07 14:08:49-warn: ios:Developer team information not found
+2021-10-07 14:08:49-warn: Command failed: xcrun security find-identity -v -p codesigning
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+
+2021-10-07 14:08:49-log: [Package] ios@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] ios-app-clip@1.0.0 enable
+2021-10-07 14:08:49-log: [Package] mac@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] native@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] ohos@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] web-desktop@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] web-mobile@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] wechatgame@1.0.1 enable
+2021-10-07 14:08:50-log: [Package] windows@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] xiaomi-quick-game@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] cocos-play@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] huawei-quick-game@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] link-sure@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] oppo-mini-game@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] qtt@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] vivo-mini-game@1.0.0 enable
+2021-10-07 14:08:50-log: [Package] cocos-service@3.0.1 enable
+2021-10-07 14:08:50-log: [Package] importer@1.0.0 enable
+2021-10-07 14:08:51-log: [Package] extension@3.0.9 enable
+2021-10-07 14:08:51-log: [Package] im-plugin@3.0.6 enable
+2021-10-07 14:08:51-log: [Package] lightmap@1.0.3 enable
+2021-10-07 14:08:51-log: [Package] colyseus-sdk@0.14.0 enable
+2021-10-07 14:08:51-warn: Browserslist: caniuse-lite is outdated. Please run:
 npx browserslist@latest --update-db
 
 Why you should do it regularly:
 https://github.com/browserslist/browserslist#browsers-data-updating
-2021-10-05 10:57:11-log: [Scene] begin init
-2021-10-05 10:57:11-log: [Scene] require engine end
-2021-10-05 10:57:11-log: [Scene] Serialize end
-2021-10-05 10:57:11-log: [Scene] configureStartup end
-2021-10-05 10:57:11-info: [Scene] WebGL2 device initialized.
-2021-10-05 10:57:11-log: [Scene] Cocos Creator v3.3.1
-2021-10-05 10:57:11-info: [Scene] Forward render pipeline initialized.
-2021-10-05 10:57:12-log: [Scene] openEngine end
-2021-10-05 10:57:12-log: [Scene] configureEngine end
-2021-10-05 11:10:12-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts: SyntaxError: unknown: Missing semicolon (23:11)
+2021-10-07 14:08:51-log: [Scene] begin init
+2021-10-07 14:08:51-log: [Scene] require engine end
+2021-10-07 14:08:51-log: [Scene] Serialize end
+2021-10-07 14:08:51-log: [Scene] configureStartup end
+2021-10-07 14:08:51-info: [Scene] WebGL2 device initialized.
+2021-10-07 14:08:52-log: [Scene] Cocos Creator v3.3.1
+2021-10-07 14:08:52-info: [Scene] Forward render pipeline initialized.
+2021-10-07 14:08:52-log: [Scene] openEngine end
+2021-10-07 14:08:52-log: [Scene] configureEngine end
+2021-10-07 14:14:39-warn: [Scene] Missing class: ed3752KOy1JnrDoSKgkmWkT
+2021-10-07 14:14:39-error: [Scene] Script "ed3752KOy1JnrDoSKgkmWkT" attached to "New Node" is missing or invalid. Detailed information:
+Script UUID: "ed375d8a-3b2d-499e-b0e8-48a824996913"
+Class ID: "ed3752KOy1JnrDoSKgkmWkT"
 
-  21 |
-  22 |         let userInfo = 
-> 23 |         let playerInfo = userInfo.players.find((obj) => {
-     |            ^
-  24 |             return obj.userId == userInfo.initInfo.userId
-  25 |         });
-  26 |         this.playerName = playerInfo.name;.
-2021-10-05 11:10:12-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts: SyntaxError: unknown: Missing semicolon (23:11)
+2021-10-07 14:14:39-error: [Scene] Script "ed3752KOy1JnrDoSKgkmWkT" attached to "New Node" is missing or invalid. Detailed information:
+Script UUID: "ed375d8a-3b2d-499e-b0e8-48a824996913"
+Class ID: "ed3752KOy1JnrDoSKgkmWkT"
 
-  21 |
-  22 |         let userInfo = 
-> 23 |         let playerInfo = userInfo.players.find((obj) => {
-     |            ^
-  24 |             return obj.userId == userInfo.initInfo.userId
-  25 |         });
-  26 |         this.playerName = playerInfo.name;.
-2021-10-05 11:11:02-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts: SyntaxError: unknown: Missing semicolon (23:11)
+2021-10-07 14:15:04-warn: [Scene] Missing class: ed3752KOy1JnrDoSKgkmWkT
+2021-10-07 14:15:05-error: [Scene] Script "ed3752KOy1JnrDoSKgkmWkT" attached to "New Node" is missing or invalid. Detailed information:
+Script UUID: "ed375d8a-3b2d-499e-b0e8-48a824996913"
+Class ID: "ed3752KOy1JnrDoSKgkmWkT"
 
-  21 |
-  22 |         let userInfo = 
-> 23 |         let playerInfo = userInfo.players.find((obj) => {
-     |            ^
-  24 |             return obj.userId == userInfo.initInfo.userId
-  25 |         });
-  26 |         this.playerName = playerInfo.name;.
-2021-10-05 11:11:03-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts: SyntaxError: unknown: Missing semicolon (23:11)
+2021-10-07 14:15:05-error: [Scene] Script "ed3752KOy1JnrDoSKgkmWkT" attached to "New Node" is missing or invalid. Detailed information:
+Script UUID: "ed375d8a-3b2d-499e-b0e8-48a824996913"
+Class ID: "ed3752KOy1JnrDoSKgkmWkT"
 
-  21 |
-  22 |         let userInfo = 
-> 23 |         let playerInfo = userInfo.players.find((obj) => {
-     |            ^
-  24 |             return obj.userId == userInfo.initInfo.userId
-  25 |         });
-  26 |         this.playerName = playerInfo.name;.
-2021-10-05 11:45:07-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 11:45:07-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 11:45:08-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 11:45:09-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 11:45:09-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 11:45:12-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/SocketConnection.js (SystemJS Error#8 https://git.io/JvFET#8)
-2021-10-05 11:45:12-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
-getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
+2021-10-07 14:15:15-error: [Scene] Lost serialized data of [object Object]
+2021-10-07 14:15:15-warn: [Window] data in node dump (__comps__.1.__scriptAsset uuid) is null!
+2021-10-07 14:19:40-warn: [Scene] Missing class: 3cbf7Z5+/NHHpi/kPsJMdy0
+2021-10-07 14:19:40-error: [Scene] Script "3cbf7Z5+/NHHpi/kPsJMdy0" attached to "New Node" is missing or invalid. Detailed information:
+Script UUID: "3cbf7679-fbf3-471e-98bf-90fb0931dcb4"
+Class ID: "3cbf7Z5+/NHHpi/kPsJMdy0"
 
-2021-10-05 11:50:18-error: Failed to resolve ./mx-multiplayer from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-multiplayer" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 11:50:18-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 11:50:18-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 11:50:18-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 11:50:18-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 11:50:18-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 11:50:18-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 11:50:19-error: Failed to resolve ./mx-multiplayer from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-multiplayer" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 11:50:19-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 11:50:19-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 11:50:19-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 11:50:19-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 11:50:19-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 11:50:19-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 14:09:23-error: Failed to resolve ./mx-multiplayer from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-multiplayer" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:09:23-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:09:23-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:09:23-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 14:09:23-error: Failed to resolve ./mx-multiplayer from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-multiplayer" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:09:23-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:09:23-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:09:23-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:09:25-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/SocketConnection.js (SystemJS Error#8 https://git.io/JvFET#8)
-2021-10-05 14:09:25-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
-getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
-promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
-promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
-systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
-import@http://localhost:7456/scripting/systemjs/system.js:318:25
-@http://localhost:7456/preview-app/main.js:1:3891
-o/</<@http://localhost:7456/preview-app/main.js:1:1334
-o/<@http://localhost:7456/preview-app/main.js:1:1439
-a@http://localhost:7456/preview-app/main.js:1:156
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-n</<@http://localhost:7456/preview-app/main.js:1:330
-n<@http://localhost:7456/preview-app/main.js:1:100
-@http://localhost:7456/preview-app/main.js:1:1501
-@http://localhost:7456/preview-app/index.js:1:3004
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-a@http://localhost:7456/preview-app/index.js:1:202
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-i</<@http://localhost:7456/preview-app/index.js:1:376
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1754
-@http://localhost:7456/preview-app/index.js:1:3047
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-i</<@http://localhost:7456/preview-app/index.js:1:398
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1646
-window.onload/<@http://localhost:7456/:148:24
-promise callback*window.onload@http://localhost:7456/:147:48
-EventHandlerNonNull*@http://localhost:7456/:146:5
+2021-10-07 14:19:40-error: [Scene] Script "3cbf7Z5+/NHHpi/kPsJMdy0" attached to "New Node" is missing or invalid. Detailed information:
+Script UUID: "3cbf7679-fbf3-471e-98bf-90fb0931dcb4"
+Class ID: "3cbf7Z5+/NHHpi/kPsJMdy0"
 
-2021-10-05 14:30:54-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:30:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:30:54-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:30:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:30:54-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 14:30:54-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:30:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:30:54-error: Failed to resolve ./Config from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./Config" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:30:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:30:56-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/SocketConnection.js (SystemJS Error#8 https://git.io/JvFET#8)
-2021-10-05 14:30:56-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
-getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
-promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
-promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
-systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
-import@http://localhost:7456/scripting/systemjs/system.js:318:25
-@http://localhost:7456/preview-app/main.js:1:3891
-o/</<@http://localhost:7456/preview-app/main.js:1:1334
-o/<@http://localhost:7456/preview-app/main.js:1:1439
-a@http://localhost:7456/preview-app/main.js:1:156
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-n</<@http://localhost:7456/preview-app/main.js:1:330
-n<@http://localhost:7456/preview-app/main.js:1:100
-@http://localhost:7456/preview-app/main.js:1:1501
-@http://localhost:7456/preview-app/index.js:1:3004
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-a@http://localhost:7456/preview-app/index.js:1:202
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-i</<@http://localhost:7456/preview-app/index.js:1:376
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1754
-@http://localhost:7456/preview-app/index.js:1:3047
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-i</<@http://localhost:7456/preview-app/index.js:1:398
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1646
-window.onload/<@http://localhost:7456/:148:24
-promise callback*window.onload@http://localhost:7456/:147:48
-EventHandlerNonNull*@http://localhost:7456/:146:5
+2021-10-07 14:19:49-warn: [Scene] Missing class: 3cbf7Z5+/NHHpi/kPsJMdy0
+2021-10-07 14:19:49-error: [Scene] Script "3cbf7Z5+/NHHpi/kPsJMdy0" attached to "New Node" is missing or invalid. Detailed information:
+Script UUID: "3cbf7679-fbf3-471e-98bf-90fb0931dcb4"
+Class ID: "3cbf7Z5+/NHHpi/kPsJMdy0"
 
-2021-10-05 14:38:03-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/Config.js: Error: Unexpected export statement in CJS module.
-  at @:2:8.
-2021-10-05 14:38:03-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/Config.proxy.js@63cjs&original=.js.
-2021-10-05 14:38:03-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 14:38:03-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/Config.js: Error: Unexpected export statement in CJS module.
-  at @:2:8.
-2021-10-05 14:38:05-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/Config.proxy.js@63cjs&original=.js (SystemJS Error#8 https://git.io/JvFET#8)
-2021-10-05 14:38:05-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
-getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
-promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
-promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
-systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
-import@http://localhost:7456/scripting/systemjs/system.js:318:25
-@http://localhost:7456/preview-app/main.js:1:3891
-o/</<@http://localhost:7456/preview-app/main.js:1:1334
-o/<@http://localhost:7456/preview-app/main.js:1:1439
-a@http://localhost:7456/preview-app/main.js:1:156
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-n</<@http://localhost:7456/preview-app/main.js:1:330
-n<@http://localhost:7456/preview-app/main.js:1:100
-@http://localhost:7456/preview-app/main.js:1:1501
-@http://localhost:7456/preview-app/index.js:1:3004
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-a@http://localhost:7456/preview-app/index.js:1:202
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-i</<@http://localhost:7456/preview-app/index.js:1:376
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1754
-@http://localhost:7456/preview-app/index.js:1:3047
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-i</<@http://localhost:7456/preview-app/index.js:1:398
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1646
-window.onload/<@http://localhost:7456/:148:24
-promise callback*window.onload@http://localhost:7456/:147:48
-EventHandlerNonNull*@http://localhost:7456/:146:5
+2021-10-07 14:19:49-error: [Scene] Script "3cbf7Z5+/NHHpi/kPsJMdy0" attached to "New Node" is missing or invalid. Detailed information:
+Script UUID: "3cbf7679-fbf3-471e-98bf-90fb0931dcb4"
+Class ID: "3cbf7Z5+/NHHpi/kPsJMdy0"
 
-2021-10-05 14:38:05-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/SocketConnection.js (SystemJS Error#8 https://git.io/JvFET#8)
-2021-10-05 14:38:05-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
-getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
-promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
-promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
-systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
-import@http://localhost:7456/scripting/systemjs/system.js:318:25
-@http://localhost:7456/preview-app/main.js:1:3891
-o/</<@http://localhost:7456/preview-app/main.js:1:1334
-o/<@http://localhost:7456/preview-app/main.js:1:1439
-a@http://localhost:7456/preview-app/main.js:1:156
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-n</<@http://localhost:7456/preview-app/main.js:1:330
-n<@http://localhost:7456/preview-app/main.js:1:100
-@http://localhost:7456/preview-app/main.js:1:1501
-@http://localhost:7456/preview-app/index.js:1:3004
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-a@http://localhost:7456/preview-app/index.js:1:202
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-i</<@http://localhost:7456/preview-app/index.js:1:376
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1754
-@http://localhost:7456/preview-app/index.js:1:3047
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-i</<@http://localhost:7456/preview-app/index.js:1:398
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1646
-window.onload/<@http://localhost:7456/:148:24
-promise callback*window.onload@http://localhost:7456/:147:48
-EventHandlerNonNull*@http://localhost:7456/:146:5
-
-2021-10-05 14:38:10-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/Config.proxy.js@63cjs&original=.js.
-2021-10-05 14:38:10-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 14:39:10-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 14:39:19-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 14:40:54-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:40:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:40:54-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/mx-milo-manager.js: Error: Unexpected export statement in CJS module.
-  at @:2:8.
-2021-10-05 14:40:54-error: [Scene] Failed to resolve __unresolved_2 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 14:40:54-error: [Scene] Failed to resolve __unresolved_1 from pack:///mods/fs/0/assets/Script/multiplayer/mx-milo-manager.proxy.js@63cjs&original=.js.
-2021-10-05 14:40:54-error: Failed to resolve ./mx-milo-manager from file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts, treat it as external dependency.
-Which is caused by: Error: Module "./mx-milo-manager" not found for file:///D:/Office/Sumo/assets/Script/multiplayer/SocketConnection.ts
-2021-10-05 14:40:54-warn: Did you forget the extension? Please note that you can not omit extension in module specifier.
-2021-10-05 14:40:54-error: Failed to load module file:///D:/Office/Sumo/assets/Script/multiplayer/mx-milo-manager.js: Error: Unexpected export statement in CJS module.
-  at @:2:8.
-2021-10-05 14:40:56-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_1' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/mx-milo-manager.proxy.js@63cjs&original=.js (SystemJS Error#8 https://git.io/JvFET#8)
-2021-10-05 14:40:56-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
-getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
-promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
-promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
-systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
-import@http://localhost:7456/scripting/systemjs/system.js:318:25
-@http://localhost:7456/preview-app/main.js:1:3891
-o/</<@http://localhost:7456/preview-app/main.js:1:1334
-o/<@http://localhost:7456/preview-app/main.js:1:1439
-a@http://localhost:7456/preview-app/main.js:1:156
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-n</<@http://localhost:7456/preview-app/main.js:1:330
-n<@http://localhost:7456/preview-app/main.js:1:100
-@http://localhost:7456/preview-app/main.js:1:1501
-@http://localhost:7456/preview-app/index.js:1:3004
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-a@http://localhost:7456/preview-app/index.js:1:202
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-i</<@http://localhost:7456/preview-app/index.js:1:376
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1754
-@http://localhost:7456/preview-app/index.js:1:3047
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-i</<@http://localhost:7456/preview-app/index.js:1:398
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1646
-window.onload/<@http://localhost:7456/:148:24
-promise callback*window.onload@http://localhost:7456/:147:48
-EventHandlerNonNull*@http://localhost:7456/:146:5
-
-2021-10-05 14:40:56-error: [preview-error]unhandledrejection: Unable to resolve bare specifier '__unresolved_2' from http://localhost:7456/scripting/x/mods/fs/0/assets/Script/multiplayer/SocketConnection.js (SystemJS Error#8 https://git.io/JvFET#8)
-2021-10-05 14:40:56-error: [preview-error]throwUnresolved@http://localhost:7456/scripting/systemjs/system.js:696:11
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:692:102
-systemJSPrototype.resolve@http://localhost:7456/scripting/systemjs/system.js:1048:24
-getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:335:39
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-getOrCreateLoad/linkPromise</</<@http://localhost:7456/scripting/systemjs/system.js:337:40
-promise callback*getOrCreateLoad/linkPromise</<@http://localhost:7456/scripting/systemjs/system.js:336:10
-getOrCreateLoad/linkPromise<@http://localhost:7456/scripting/systemjs/system.js:333:43
-promise callback*getOrCreateLoad@http://localhost:7456/scripting/systemjs/system.js:332:6
-systemJSPrototype.import/<@http://localhost:7456/scripting/systemjs/system.js:228:33
-promise callback*systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:227:6
-systemJSPrototype.import@http://localhost:7456/scripting/systemjs/system.js:773:19
-import@http://localhost:7456/scripting/systemjs/system.js:318:25
-@http://localhost:7456/preview-app/main.js:1:3891
-o/</<@http://localhost:7456/preview-app/main.js:1:1334
-o/<@http://localhost:7456/preview-app/main.js:1:1439
-a@http://localhost:7456/preview-app/main.js:1:156
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-a@http://localhost:7456/preview-app/main.js:1:153
-promise callback*c@http://localhost:7456/preview-app/main.js:1:319
-n</<@http://localhost:7456/preview-app/main.js:1:330
-n<@http://localhost:7456/preview-app/main.js:1:100
-@http://localhost:7456/preview-app/main.js:1:1501
-@http://localhost:7456/preview-app/index.js:1:3004
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-a@http://localhost:7456/preview-app/index.js:1:202
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-a@http://localhost:7456/preview-app/index.js:1:199
-promise callback*c@http://localhost:7456/preview-app/index.js:1:365
-i</<@http://localhost:7456/preview-app/index.js:1:376
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1754
-@http://localhost:7456/preview-app/index.js:1:3047
-s/</<@http://localhost:7456/preview-app/index.js:1:1380
-s/<@http://localhost:7456/preview-app/index.js:1:1485
-i</<@http://localhost:7456/preview-app/index.js:1:398
-i<@http://localhost:7456/preview-app/index.js:1:146
-@http://localhost:7456/preview-app/index.js:1:1646
-window.onload/<@http://localhost:7456/:148:24
-promise callback*window.onload@http://localhost:7456/:147:48
-EventHandlerNonNull*@http://localhost:7456/:146:5
-
-2021-10-05 14:41:21-error: [Scene] Failed to resolve __unresolved_2 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 14:41:35-error: [Scene] Failed to resolve __unresolved_2 from pack:///mods/fs/0/assets/Script/multiplayer/SocketConnection.js.
-2021-10-05 15:43:32-log: [Window] [extension] Archive:  D:/Office/Sumo/extensions/Colyseus SDK.zip
-   creating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/
-  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/.DS_Store  
-  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/__MACOSX/colyseus-sdk/._.DS_Store  
-   creating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/runtime/
-  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/package.json  
-  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/browser.js  
-  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/runtime/colyseus.d.ts.meta  
-  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/runtime/colyseus.js  
-  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/runtime/colyseus.d.ts  
-  inflating: C:/Users/shash/AppData/Local/Temp/CocosCreator/3.3.1/extension_Colyseus SDK_temp/colyseus-sdk/runtime/colyseus.js.meta  
-
-2021-10-05 15:43:32-error: [Extension] Register error: D:\Office\Sumo\extensions\Colyseus SDK
-2021-10-05 15:43:32-error: D:\Office\Sumo\extensions\Colyseus SDK\package.json: ENOENT: no such file or directory, open 'D:\Office\Sumo\extensions\Colyseus SDK\package.json'
-2021-10-05 15:43:32-log: [Package] colyseus-sdk@0.14.0 enable
-2021-10-05 15:44:16-log: [Package] colyseus-sdk@0.14.0 disable
-2021-10-05 15:44:16-log: [Package] colyseus-sdk@0.14.0 enable

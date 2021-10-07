@@ -237,12 +237,12 @@
     "missing": false
   },
   "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/GameScene.scene": {
-    "time": 1632848973861.9038,
+    "time": 1633597948065.4463,
     "uuid": "a81941e8-7263-46ef-83db-06d31c197e79",
     "missing": false
   },
   "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Material": {
-    "time": 1632724569527.1802,
+    "time": 1633581900236.1694,
     "uuid": "94a2208a-5ccd-4105-b2af-f586ed2fef77",
     "missing": false
   },
@@ -252,12 +252,12 @@
     "missing": false
   },
   "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script": {
-    "time": 1632836064112.9863,
+    "time": 1633581900460.2515,
     "uuid": "6ca7f611-4368-488e-9c50-2802b5045d7c",
     "missing": false
   },
   "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/pngs": {
-    "time": 1632835303378.2864,
+    "time": 1633581900462.8025,
     "uuid": "bf32f5fa-49dc-4ef6-a1cd-77f7014fe863",
     "missing": false
   },
@@ -337,7 +337,7 @@
     "missing": false
   },
   "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Material/platform.mtl": {
-    "time": 1632724789430.5752,
+    "time": 1633586774663.3728,
     "uuid": "9456d241-c9d4-4943-8880-a03d54eadd4d",
     "missing": false
   },
@@ -461,19 +461,19 @@
     "time": 1632724569536.2456
   },
   "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/pngs/KnightCharacter.fbx.meta": {
-    "time": 1632724790884.287
+    "time": 1633586777646.6985
   },
   "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/pngs/samurai.meta": {
     "time": 1632835303383.8901
   },
   "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/pngs/samurai/samurai.fbx.meta": {
-    "time": 1632835304223.4958
+    "time": 1633581900463.3325
   },
   "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/pngs/samurai/samutex.png.meta": {
     "time": 1632835303804.4426
   },
   "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/pngs/samurai": {
-    "time": 1632835303379.1418,
+    "time": 1633581900463.2805,
     "uuid": "0b43b2fd-36d2-4aa2-ab7a-caaaa696ad9b",
     "missing": false
   },
@@ -869,6 +869,174 @@
   "D:\\Office\\Sumo\\assets\\Script\\gameScene\\multiplayer\\SocketConnection.ts": {
     "time": 1633432129693.9473,
     "uuid": "aa55c809-fc8b-489e-b562-243a39166a97",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models": {
+    "time": 1633581900238.1611,
+    "uuid": "c94a9f01-19eb-4b86-be14-b0720a3bc03a",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/EA03_Items_House_Apple_01a.fbx": {
+    "time": 1633581900237.6292,
+    "uuid": "1c6e4b71-f4d9-43b3-b1a3-8977c026cc32",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/EA03_Prop_House_Shelf_01g.fbx": {
+    "time": 1633581900237.9048,
+    "uuid": "a29f701c-140a-475f-bf89-05ea2d0389b0",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/log_cabin": {
+    "time": 1633581900456.2605,
+    "uuid": "2a467b3e-be5d-468f-b341-e6ad7d9423ce",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene": {
+    "time": 1633596640901.2695,
+    "uuid": "b24c6f82-05ac-4047-97dc-07c0f7f83916",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene": {
+    "time": 1633581900461.642,
+    "uuid": "5f078002-2971-4807-93fb-6327570ad510",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/pngs/250px-FGUK_Pop_up_box.png": {
+    "time": 1633581900461.8513,
+    "uuid": "e183e8d4-da19-4a34-86e8-71abc78644d4",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/log_cabin/log_cabin.fbx": {
+    "time": 1633581900239.0618,
+    "uuid": "2be36225-afb4-472e-8e88-7c6e4ae0a4af",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/log_cabin/log_cabin_1024px.png": {
+    "time": 1633581900244.5754,
+    "uuid": "d03cb6b8-1243-4998-9d4b-c60642c7575f",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/log_cabin/log_cabin_4096px.png": {
+    "time": 1633581900454.166,
+    "uuid": "c9c7488a-be17-4173-a27b-c2d7287a59f1",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts": {
+    "time": 1633581900456.905,
+    "uuid": "62ee6284-c1ba-4934-a009-a394e65d1828",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer": {
+    "time": 1633581900460.067,
+    "uuid": "853a60ef-ee4b-42ee-88e5-e20c13856e5f",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts": {
+    "time": 1633581900460.3472,
+    "uuid": "b33e1b98-5e08-4861-91fa-7103a5c84059",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts": {
+    "time": 1633581900460.967,
+    "uuid": "16e06970-ab02-458c-96ae-2a281da231af",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts": {
+    "time": 1633581900461.5625,
+    "uuid": "0fdf8aba-6647-4a2a-a35d-fff5227ed4c6",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts": {
+    "time": 1633581900459.5444,
+    "uuid": "392b782c-5cbf-4b49-ac71-93191f0f14a9",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts": {
+    "time": 1633581900459.777,
+    "uuid": "81952837-b513-4b6a-8020-8be425d4eccb",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts": {
+    "time": 1633581900459.9932,
+    "uuid": "aa55c809-fc8b-489e-b562-243a39166a97",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models.meta": {
+    "time": 1633581900236.3477
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/log_cabin.meta": {
+    "time": 1633581900238.1055
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene.meta": {
+    "time": 1633581900456.5066
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene.meta": {
+    "time": 1633581900460.1968
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/pngs/250px-FGUK_Pop_up_box.png.meta": {
+    "time": 1633581900462.0576
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/log_cabin/log_cabin_1024px.png.meta": {
+    "time": 1633581900244.742
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/EA03_Prop_House_Shelf_01g.fbx.meta": {
+    "time": 1633581900238.0037
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/GameUIController.ts.meta": {
+    "time": 1633581900458.8904
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer.meta": {
+    "time": 1633581900459.3328
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Menu.ts.meta": {
+    "time": 1633581900460.495
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/MenuController.ts.meta": {
+    "time": 1633581900461.0874
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/menuScene/Sumo.ts.meta": {
+    "time": 1633581900461.6802
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/EA03_Items_House_Apple_01a.fbx.meta": {
+    "time": 1633581900237.7664
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/log_cabin/log_cabin_4096px.png.meta": {
+    "time": 1633581900456.3223
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/Config.ts.meta": {
+    "time": 1633581900459.6655
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/MiloManager.ts.meta": {
+    "time": 1633581900459.8853
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/multiplayer/SocketConnection.ts.meta": {
+    "time": 1633581900460.1016
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Models/log_cabin/log_cabin.fbx.meta": {
+    "time": 1633581900239.1768
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts.meta": {
+    "time": 1633596303881.2825
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Bot.ts": {
+    "time": 1633596451225.4817,
+    "uuid": "77e53dc4-7b3c-40ff-a3df-d90e788f8b16",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts.meta": {
+    "time": 1633596589194.7163
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/Player.ts": {
+    "time": 1633596589191.5593,
+    "uuid": "a3adda64-7f59-4e0a-856e-7d794a939c51",
+    "missing": false
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts.meta": {
+    "time": 1633596640903.798
+  },
+  "/Users/shashankchaurasia/CocosWorkspace/Sumo/assets/Script/gameScene/camera.ts": {
+    "time": 1633596751093.2407,
+    "uuid": "5908a3b4-5877-4789-8e57-b26ab5909648",
     "missing": false
   }
 }
